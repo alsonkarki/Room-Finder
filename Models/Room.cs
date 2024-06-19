@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace RoomFInder.Models;
 
 public class Room
