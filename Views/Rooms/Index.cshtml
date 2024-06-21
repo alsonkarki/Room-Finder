@@ -1,0 +1,41 @@
+@model IEnumerable<RoomFInder.Models.Room>
+
+@{
+ViewData["Title"] = "Rooms";
+}
+
+<h1>Rooms</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Room</a>
+</p>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+        <th>@Html.DisplayNameFor(model => model.First().Location)</th>
+        <th>@Html.DisplayNameFor(model => model.First().Price)</th>
+        <th>@Html.DisplayNameFor(model => model.First().IsAvailable)</th>
+        <th>@Html.DisplayNameFor(model => model.First().Owner.Email)</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+        <td>@Html.DisplayFor(modelItem => item.Location)</td>
+        <td>@Html.DisplayFor(modelItem => item.Price)</td>
+        <td>@Html.DisplayFor(modelItem => item.IsAvailable)</td>
+        <td>@Html.DisplayFor(modelItem => item.Owner.Email)</td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.RoomId" class="btn btn-primary">Edit</a>
+            <a asp-action="Details" asp-route-id="@item.RoomId" class="btn btn-info">Details</a>
+            <a asp-action="Delete" asp-route-id="@item.RoomId" class="btn btn-danger">Delete</a>
+        </td>
+    </tr>
+    }
+    </tbody>
+</table>
