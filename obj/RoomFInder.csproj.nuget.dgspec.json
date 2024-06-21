@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Asp.NetCore\\RoomFInder\\RoomFInder\\RoomFInder.csproj": {}
+    "C:\\Users\\PC\\RiderProjects\\RoomFInder\\RoomFInder.csproj": {}
   },
   "projects": {
-    "C:\\Asp.NetCore\\RoomFInder\\RoomFInder\\RoomFInder.csproj": {
+    "C:\\Users\\PC\\RiderProjects\\RoomFInder\\RoomFInder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Asp.NetCore\\RoomFInder\\RoomFInder\\RoomFInder.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\RoomFInder.csproj",
         "projectName": "RoomFInder",
-        "projectPath": "C:\\Asp.NetCore\\RoomFInder\\RoomFInder\\RoomFInder.csproj",
-        "packagesPath": "C:\\Users\\Alson karki\\.nuget\\packages\\",
-        "outputPath": "C:\\Asp.NetCore\\RoomFInder\\RoomFInder\\obj\\",
+        "projectPath": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\RoomFInder.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alson karki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.420\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
