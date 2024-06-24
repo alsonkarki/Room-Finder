@@ -47,8 +47,7 @@ namespace RoomFInder.Controllers;
 
             return View(room);
         }
-
-        [AllowAnonymous]
+        
         public IActionResult Create()
         {
             return View();
