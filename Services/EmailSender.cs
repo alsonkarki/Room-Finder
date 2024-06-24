@@ -1,10 +1,10 @@
-using MailKit.Net.Smtp;
+﻿using MailKit.Net.Smtp;
 using Microsoft.Extensions.Options;
 using MimeKit;
 
 namespace RoomFInder.Services;
 
-public class EmailSender : IEmailSender
+public class EmailSender : IEmailSender, Microsoft.AspNetCore.Identity.UI.Services.IEmailSender
 {
     private readonly AuthMessageSenderOptions _options;
     private readonly ILogger<EmailSender> _logger;
@@ -33,11 +33,13 @@ public class EmailSender : IEmailSender
         {
             using (var client = new SmtpClient())
             {
-                await client.ConnectAsync(_options.MailServer, _options.MailPort, MailKit.Security.SecureSocketOptions.StartTls);
+                await client.ConnectAsync(_options.MailServer, _options.MailPort,
+                    MailKit.Security.SecureSocketOptions.StartTls);
                 await client.AuthenticateAsync(_options.SenderEmail, _options.SenderPassword);
                 await client.SendAsync(message);
                 await client.DisconnectAsync(true);
             }
+
             _logger.LogInformation($"Email sent to {email}");
         }
         catch (Exception ex)
@@ -46,5 +48,3 @@ public class EmailSender : IEmailSender
         }
     }
 }
-
-

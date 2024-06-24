@@ -2675,7 +2675,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.31",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.31",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.31",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.31"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.31",
+      "MimeKit >= 4.6.0"
     ]
   },
   "packageFolders": {
@@ -2739,6 +2740,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.31, )"
+          },
+          "MimeKit": {
+            "target": "Package",
+            "version": "[4.6.0, )"
           }
         },
         "imports": [
