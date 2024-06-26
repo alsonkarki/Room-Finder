@@ -1,6 +1,6 @@
-namespace RoomFInder.Services;
+﻿namespace RoomFInder.Services;
 
-public interface IEmailSender 
+public interface IEmailSender
 {
     Task SendEmailAsync(string email, string subject, string htmlMessage);
 }

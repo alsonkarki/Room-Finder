@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using RoomFInder.Data;
 using RoomFInder.Models;
 using RoomFInder.Services;
+using IEmailSender = Microsoft.AspNetCore.Identity.UI.Services.IEmailSender;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,14 +18,13 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer
 //Add identity
 builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
     {
-        options.SignIn.RequireConfirmedAccount = true;
+        options.SignIn.RequireConfirmedAccount = false;
         options.User.RequireUniqueEmail = true;
     })
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
-// Configure email sender service
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration.GetSection("AuthMessageSenderOptions"));
 
@@ -43,7 +44,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthentication();
-
 app.UseAuthorization();
 
 

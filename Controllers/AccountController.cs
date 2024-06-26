@@ -1,5 +1,6 @@
 using System.Text;
 using System.Text.Encodings.Web;
+using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -9,12 +10,11 @@ using RoomFInder.ViewModels;
 
 namespace RoomFInder.Controllers;
 
-public class AccountController : Controller
- {
+    public class AccountController : Controller
+    {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
-
         public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IEmailSender emailSender)
         {
             _userManager = userManager;
@@ -46,13 +46,14 @@ public class AccountController : Controller
 
                 if (result.Succeeded)
                 {
+
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     var callbackUrl = Url.Action(
                         nameof(ConfirmEmail),
                         "Account",
                         new { userId = user.Id, code },
                         protocol: HttpContext.Request.Scheme);
-
+                
                     await _emailSender.SendEmailAsync(model.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{callbackUrl}'>clicking here</a>.");
 
@@ -73,7 +74,7 @@ public class AccountController : Controller
         {
             return View();
         }
-
+        
         [HttpGet]
         public async Task<IActionResult> ConfirmEmail(string userId, string code)
         {
@@ -97,11 +98,30 @@ public class AccountController : Controller
         {
             return View();
         }
+        
+
+        private bool IsValidemail(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
+
+            try
+            {
+                // Define a regular expression for validating an email address
+                var emailRegex = new Regex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", RegexOptions.IgnoreCase);
+                return emailRegex.IsMatch(email);
+            }
+            catch (RegexMatchTimeoutException)
+            {
+                return false;
+            }
+        
+    }
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl = null)
+        public async Task<IActionResult> Login(LoginViewModel model, string? returnUrl = null)
         {
-            if (ModelState.IsValid)
+            if (IsValidemail(model.Email))
             {
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
 
@@ -123,6 +143,7 @@ public class AccountController : Controller
                 else
                 {
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                   
                     return View(model);
                 }
             }
@@ -137,6 +158,6 @@ public class AccountController : Controller
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
     }
-    
+
     
 

@@ -29,7 +29,7 @@ namespace RoomFInder.Controllers;
         }
         
 
-        // GET: Rooms/Details/5
+        
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -47,16 +47,15 @@ namespace RoomFInder.Controllers;
 
             return View(room);
         }
-
-        // GET: Rooms/Create
+        
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Rooms/Create
+
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(RoomViewModel model)
         {
             if (ModelState.IsValid)
@@ -80,7 +79,7 @@ namespace RoomFInder.Controllers;
             return View(model);
         }
 
-        // GET: Rooms/Edit/5
+
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -109,7 +108,7 @@ namespace RoomFInder.Controllers;
             return View(model);
         }
 
-        // POST: Rooms/Edit/5
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, RoomViewModel model)
@@ -151,7 +150,7 @@ namespace RoomFInder.Controllers;
             return View(model);
         }
 
-        // GET: Rooms/Delete/5
+
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -170,7 +169,7 @@ namespace RoomFInder.Controllers;
             return View(room);
         }
 
-        // POST: Rooms/Delete/5
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

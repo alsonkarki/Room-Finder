@@ -1,4 +1,4 @@
-namespace RoomFInder.Services;
+﻿namespace RoomFInder.Services;
 
 public class AuthMessageSenderOptions
 {
