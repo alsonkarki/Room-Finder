@@ -25,6 +25,7 @@ namespace RoomFInder.Controllers;
         [HttpGet]
         public IActionResult Register()
         {
+
             return View();
         }
 
@@ -66,7 +67,7 @@ namespace RoomFInder.Controllers;
                 }
             }
 
-            return View(model);
+            return View();
         }
 
         [HttpGet]

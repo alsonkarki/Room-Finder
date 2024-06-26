@@ -19,7 +19,7 @@ namespace RoomFInder.Controllers;
             _context = context;
             _userManager = userManager;
         }
-
+g
         // GET: Rooms
         [AllowAnonymous]
         public async Task<IActionResult> Index()
