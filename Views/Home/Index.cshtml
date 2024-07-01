@@ -2,7 +2,40 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Welcome to Kotha Bhada!</h1>
+
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <form method="get" action="@Url.Action("Index", "Home")" class="form-inline">
+            <div class="input-group">
+                <label for="searchInput" class="mr-4"></label>
+                <input type="text" id="searchInput" name="searchString" class="form-control" placeholder="Enter search keywords">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="row">
+    @foreach (var room in Model)
+    {
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="~/images/@(room.ImageUrl ?? "default.jpg")" class="card-img-top" alt="Room Image">
+            <div class="card-body">
+                <h5 class="card-title">@room.Name</h5>
+                <p class="card-text">
+                    <strong>Location:</strong> @(room.Location ?? "Unknown") <br>
+                    <strong>Price:</strong> @(room.Price.ToString("C")) <br>
+                    <strong>Availability:</strong> @(room.IsAvailable ? "Available" : "Not Available") <br>
+                    <strong>Owner:</strong> @(room.Owner != null ? room.Owner.Email : "Unknown")
+                </p>
+                <a href="@Url.Action("Details", "Rooms", new { id = room.RoomId })" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+    </div>
+    }
 </div>

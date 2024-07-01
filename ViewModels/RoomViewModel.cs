@@ -26,9 +26,8 @@ namespace RoomFinder.ViewModels
 
         [Required]
         public string Location { get; set; }
-
-        [Required]
-        [Url]
-        public string ImageUrl { get; set; }
+        
+        public string ImageUrl { get; set; } = String.Empty;
+        public IFormFile ImageFile { get; set; }
     }
 }

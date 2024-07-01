@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RoomFInder.Data;
 using RoomFInder.Models;
+using RoomFInder.Services;
 using RoomFinder.ViewModels;
 
 namespace RoomFInder.Controllers;
@@ -13,14 +14,15 @@ namespace RoomFInder.Controllers;
     {
         private readonly AppDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ImageService _imageService;
 
-        public RoomsController(AppDbContext context, UserManager<ApplicationUser> userManager)
+        public RoomsController(AppDbContext context, UserManager<ApplicationUser> userManager,ImageService imageService)
         {
             _context = context;
             _userManager = userManager;
+            _imageService = imageService;
         }
-g
-        // GET: Rooms
+        
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
@@ -55,11 +57,18 @@ g
 
 
         [HttpPost]
-        //[ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(RoomViewModel model)
         {
             if (ModelState.IsValid)
             {
+                string uniqueFileName = null;
+
+                if (model.ImageFile != null)
+                {
+                    uniqueFileName = await _imageService.SaveImageAsync(model.ImageFile);
+                }
+
                 var room = new Room
                 {
                     Name = model.Name,
@@ -68,7 +77,7 @@ g
                     IsAvailable = model.IsAvailable,
                     Description = model.Description,
                     Location = model.Location,
-                    ImageUrl = model.ImageUrl,
+                    ImageUrl = uniqueFileName ?? string.Empty,
                     RoomOwnerId = _userManager.GetUserId(User)
                 };
 
@@ -76,6 +85,14 @@ g
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            // Log ModelState errors for debugging
+            var errors = ModelState.Values.SelectMany(v => v.Errors);
+            foreach (var error in errors)
+            {
+                System.Diagnostics.Debug.WriteLine($"ModelState Error: {error.ErrorMessage}");
+            }
+
             return View(model);
         }
 
@@ -104,7 +121,7 @@ g
                 Location = room.Location,
                 ImageUrl = room.ImageUrl
             };
-
+            await _context.SaveChangesAsync();
             return View(model);
         }
 

@@ -325,6 +325,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\2148a7bb-7905-4e40-b6fe-7fde47aaf99c_gallery-logo.webp",
+      "PackagePath": "staticwebassets\\images\\2148a7bb-7905-4e40-b6fe-7fde47aaf99c_gallery-logo.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\26321756-2f04-4b41-bd51-7b2969033b15_gallery-logo.webp",
+      "PackagePath": "staticwebassets\\images\\26321756-2f04-4b41-bd51-7b2969033b15_gallery-logo.webp"
+    },
+    {
       "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

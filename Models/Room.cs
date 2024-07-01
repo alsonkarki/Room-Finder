@@ -29,9 +29,8 @@ public class Room
     public string Location { get; set; }
 
     [Required]
-    [Url]
     public string ImageUrl { get; set; }
-
+    
     [Required]
     public string RoomOwnerId { get; set; }
         

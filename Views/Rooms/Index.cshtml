@@ -18,6 +18,8 @@ ViewData["Title"] = "Rooms";
         <th>@Html.DisplayNameFor(model => model.First().Price)</th>
         <th>@Html.DisplayNameFor(model => model.First().IsAvailable)</th>
         <th>@Html.DisplayNameFor(model => model.First().Owner.Email)</th>
+        <th>@Html.DisplayNameFor(model => model.First().ImageUrl)</th>
+        <th>Action</th>
         <th></th>
     </tr>
     </thead>
@@ -30,6 +32,7 @@ ViewData["Title"] = "Rooms";
         <td>@Html.DisplayFor(modelItem => item.Price)</td>
         <td>@Html.DisplayFor(modelItem => item.IsAvailable)</td>
         <td>@Html.DisplayFor(modelItem => item.Owner.Email)</td>
+        <td><img src="~/images/@item.ImageUrl" alt="" width="70" height="80" /></td>
         <td>
             <a asp-action="Edit" asp-route-id="@item.RoomId" class="btn btn-primary">Edit</a>
             <a asp-action="Details" asp-route-id="@item.RoomId" class="btn btn-info">Details</a>
