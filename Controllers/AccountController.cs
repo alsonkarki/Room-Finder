@@ -117,7 +117,13 @@ namespace RoomFInder.Controllers;
                 return false;
             }
         
+            
     }
+        [HttpGet]
+        public IActionResult PostLogin()
+        {
+            return View();
+        }
 
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model, string? returnUrl = null)
@@ -134,7 +140,7 @@ namespace RoomFInder.Controllers;
                     }
                     else
                     {
-                        return RedirectToAction(nameof(HomeController.Index), "Home");
+                        return RedirectToAction(nameof(PostLogin));
                     }
                 }
                 if (result.IsLockedOut)

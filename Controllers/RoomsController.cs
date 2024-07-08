@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RoomFInder.Data;
 using RoomFInder.Models;
+using RoomFInder.Repository;
 using RoomFInder.Services;
 using RoomFinder.ViewModels;
 
@@ -12,13 +13,14 @@ namespace RoomFInder.Controllers;
  [Authorize]
     public class RoomsController : Controller
     {
-        private readonly AppDbContext _context;
+        private readonly IGenericRepository<Room> _roomRepository;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ImageService _imageService;
+        
 
-        public RoomsController(AppDbContext context, UserManager<ApplicationUser> userManager,ImageService imageService)
+        public RoomsController(IGenericRepository<Room> roomRepository, UserManager<ApplicationUser> userManager,ImageService imageService)
         {
-            _context = context;
+            _roomRepository = roomRepository;
             _userManager = userManager;
             _imageService = imageService;
         }
@@ -26,7 +28,7 @@ namespace RoomFInder.Controllers;
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
-            var rooms = await _context.Rooms.Include(r => r.Owner).ToListAsync();
+            var rooms = await _roomRepository.GetAllAsync();
             return View(rooms);
         }
         
@@ -39,9 +41,7 @@ namespace RoomFInder.Controllers;
                 return NotFound();
             }
 
-            var room = await _context.Rooms
-                .Include(r => r.Owner)
-                .FirstOrDefaultAsync(m => m.RoomId == id);
+            var room = await _roomRepository.GetByIdAsync(id.Value);
             if (room == null)
             {
                 return NotFound();
@@ -81,12 +81,10 @@ namespace RoomFInder.Controllers;
                     RoomOwnerId = _userManager.GetUserId(User)
                 };
 
-                _context.Add(room);
-                await _context.SaveChangesAsync();
+                await _roomRepository.AddAsync(room); 
+                TempData["success"] = "successfully created";
                 return RedirectToAction(nameof(Index));
             }
-
-            // Log ModelState errors for debugging
             var errors = ModelState.Values.SelectMany(v => v.Errors);
             foreach (var error in errors)
             {
@@ -104,7 +102,7 @@ namespace RoomFInder.Controllers;
                 return NotFound();
             }
 
-            var room = await _context.Rooms.FindAsync(id);
+            var room = await _roomRepository.GetByIdAsync(id.Value);
             if (room == null)
             {
                 return NotFound();
@@ -121,7 +119,7 @@ namespace RoomFInder.Controllers;
                 Location = room.Location,
                 ImageUrl = room.ImageUrl
             };
-            await _context.SaveChangesAsync();
+            
             return View(model);
         }
 
@@ -139,7 +137,7 @@ namespace RoomFInder.Controllers;
             {
                 try
                 {
-                    var room = await _context.Rooms.FindAsync(id);
+                    var room = await _roomRepository.GetByIdAsync(id);
                     room.Name = model.Name;
                     room.Capacity = model.Capacity;
                     room.Price = model.Price;
@@ -148,12 +146,11 @@ namespace RoomFInder.Controllers;
                     room.Location = model.Location;
                     room.ImageUrl = model.ImageUrl;
 
-                    _context.Update(room);
-                    await _context.SaveChangesAsync();
+                    await _roomRepository.UpdateAsync(room);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!RoomExists(model.RoomId))
+                    if (!await RoomExists(model.RoomId))
                     {
                         return NotFound();
                     }
@@ -175,9 +172,7 @@ namespace RoomFInder.Controllers;
                 return NotFound();
             }
 
-            var room = await _context.Rooms
-                .Include(r => r.Owner)
-                .FirstOrDefaultAsync(m => m.RoomId == id);
+            var room = await _roomRepository.GetByIdAsync(id.Value);
             if (room == null)
             {
                 return NotFound();
@@ -191,14 +186,19 @@ namespace RoomFInder.Controllers;
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var room = await _context.Rooms.FindAsync(id);
-            _context.Rooms.Remove(room);
-            await _context.SaveChangesAsync();
+            var room = await _roomRepository.GetByIdAsync(id);
+            if (room == null)
+            {
+                return NotFound();
+            }
+
+            await _roomRepository.DeleteAsync(room);
             return RedirectToAction(nameof(Index));
         }
 
-        private bool RoomExists(int id)
+        private async Task<bool> RoomExists(int id)
         {
-            return _context.Rooms.Any(e => e.RoomId == id);
+            var room = await _roomRepository.GetByIdAsync(id);
+            return room != null;
         }
     }

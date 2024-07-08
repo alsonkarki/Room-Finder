@@ -22,20 +22,20 @@
 <div class="row">
     @foreach (var room in Model)
     {
-    <div class="col-md-4 mb-4">
-        <div class="card">
-            <img src="~/images/@(room.ImageUrl ?? "default.jpg")" class="card-img-top" alt="Room Image">
-            <div class="card-body">
-                <h5 class="card-title">@room.Name</h5>
-                <p class="card-text">
-                    <strong>Location:</strong> @(room.Location ?? "Unknown") <br>
-                    <strong>Price:</strong> @(room.Price.ToString("C")) <br>
-                    <strong>Availability:</strong> @(room.IsAvailable ? "Available" : "Not Available") <br>
-                    <strong>Owner:</strong> @(room.Owner != null ? room.Owner.Email : "Unknown")
-                </p>
-                <a href="@Url.Action("Details", "Rooms", new { id = room.RoomId })" class="btn btn-primary">View Details</a>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="~/images/@(room.ImageUrl ?? "default.jpg")" class="card-img-top" alt="Room Image">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Title:</strong> @room.Name</h5> <br>
+                    <p class="card-text">
+                        <strong>Location:</strong> @(room.Location ?? "Unknown") <br>
+                        <strong>Price:</strong> @(room.Price.ToString("C")) <br>
+                        <strong>Availability:</strong> @(room.IsAvailable ? "Available" : "Not Available") <br>
+                        <strong>Owner:</strong> @(room.Owner != null ? room.Owner.Email : "Unknown")
+                    </p>
+                    <a href="@Url.Action("Details", "Rooms", new { id = room.RoomId })" class="btn btn-primary">View Details</a>
+                </div>
             </div>
         </div>
-    </div>
     }
 </div>

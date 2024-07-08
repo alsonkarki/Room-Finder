@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RoomFInder.Data;
 using RoomFInder.Models;
+using RoomFInder.Repository;
 using RoomFInder.Services;
 using IEmailSender = Microsoft.AspNetCore.Identity.UI.Services.IEmailSender;
 
@@ -28,6 +29,8 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration.GetSection("AuthMessageSenderOptions"));
 builder.Services.AddTransient<ImageService>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
 
 var app = builder.Build();
 
