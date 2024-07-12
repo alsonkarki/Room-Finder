@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RoomFInder.Data;
 
 #nullable disable
-
 namespace RoomFInder.Migrations
 {
     [DbContext(typeof(AppDbContext))]
@@ -159,22 +158,22 @@ namespace RoomFInder.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("RoomFInder.Models.Amenity", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Amenities");
-                });
+            // modelBuilder.Entity("RoomFInder.Models.Amenity", b =>
+            //     {
+            //         b.Property<int>("Id")
+            //             .ValueGeneratedOnAdd()
+            //             .HasColumnType("int");
+            //
+            //         SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+            //
+            //         b.Property<string>("Name")
+            //             .IsRequired()
+            //             .HasColumnType("nvarchar(max)");
+            //
+            //         b.HasKey("Id");
+            //
+            //         b.ToTable("Amenities");
+            //     });
 
             modelBuilder.Entity("RoomFInder.Models.ApplicationUser", b =>
                 {

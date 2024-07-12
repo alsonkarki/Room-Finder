@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace RoomFInder.Models;
 
@@ -36,8 +37,9 @@ public class Room
         
     public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-    public DateTime? UpdatedAt { get; set; }
+    public DateTime? UpdatedAt { get; set; } = DateTime.Now;
 
+    [ForeignKey(nameof(RoomOwnerId))]
     public virtual ApplicationUser Owner { get; set; }
     //public ICollection<RoomAmenity> RoomAmenities { get; set; }
 }

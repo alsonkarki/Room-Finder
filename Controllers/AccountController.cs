@@ -1,10 +1,14 @@
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.RegularExpressions;
+using AspNetCoreHero.ToastNotification.Abstractions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.EntityFrameworkCore;
+using RoomFInder.Data;
 using RoomFInder.Models;
 using RoomFInder.ViewModels;
 
@@ -15,11 +19,17 @@ namespace RoomFInder.Controllers;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
-        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IEmailSender emailSender)
+        private readonly INotyfService _notyfService;
+        private readonly AppDbContext _context;
+
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> 
+            signInManager, IEmailSender emailSender,INotyfService notyfService,AppDbContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
+            _notyfService = notyfService;
+            _context = context;
         }
 
         [HttpGet]
@@ -44,17 +54,18 @@ namespace RoomFInder.Controllers;
                 };
 
                 var result = await _userManager.CreateAsync(user, model.Password);
+                _notyfService.Success("Sucessefully Registered");
 
                 if (result.Succeeded)
                 {
-
+                    await _userManager.AddToRoleAsync(user, "User");
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     var callbackUrl = Url.Action(
                         nameof(ConfirmEmail),
                         "Account",
                         new { userId = user.Id, code },
                         protocol: HttpContext.Request.Scheme);
-                
+                    
                     await _emailSender.SendEmailAsync(model.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{callbackUrl}'>clicking here</a>.");
 
@@ -119,9 +130,11 @@ namespace RoomFInder.Controllers;
         
             
     }
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult PostLogin()
         {
+            ViewData["RoomCount"] = _context.Rooms.Count();
             return View();
         }
 
@@ -140,6 +153,10 @@ namespace RoomFInder.Controllers;
                     }
                     else
                     {
+
+                        var user = await _userManager.GetUserAsync(User);
+                        var roles = await _userManager.GetRolesAsync(user);
+                        _notyfService.Success("Login Succesfully");
                         return RedirectToAction(nameof(PostLogin));
                     }
                 }
@@ -150,7 +167,7 @@ namespace RoomFInder.Controllers;
                 else
                 {
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                   
+                    
                     return View(model);
                 }
             }
@@ -162,6 +179,7 @@ namespace RoomFInder.Controllers;
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
+            _notyfService.Success("Logout Successfully");
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
     }

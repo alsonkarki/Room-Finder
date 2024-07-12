@@ -12,5 +12,4 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
         
     }
     public DbSet<Room> Rooms { get; set; }
-    public DbSet<Amenity> Amenities { get; set; }
 }

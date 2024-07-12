@@ -2,6 +2,29 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AspNetCoreHero.ToastNotification/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/net5.0/AspNetCoreHero.ToastNotification.Views.dll": {},
+          "lib/net5.0/AspNetCoreHero.ToastNotification.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/AspNetCoreHero.ToastNotification.Views.dll": {},
+          "lib/net5.0/AspNetCoreHero.ToastNotification.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "buildTransitive/AspNetCoreHero.ToastNotification.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/AspNetCoreHero.ToastNotification.props": {}
+        }
+      },
       "BouncyCastle.Cryptography/2.3.1": {
         "type": "package",
         "compile": {
@@ -701,6 +724,19 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -1023,6 +1059,30 @@
     }
   },
   "libraries": {
+    "AspNetCoreHero.ToastNotification/1.1.0": {
+      "sha512": "bCAYeD+b2pRelcOrHMNtYGVtRq+J2u+SAaND33v3u6qZCatHf4XSZOEPhBfCKJAjMGvsggtPKaNFnrv4VhwOfA==",
+      "type": "package",
+      "path": "aspnetcorehero.toastnotification/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
+        "aspnetcorehero.toastnotification.nuspec",
+        "build/AspNetCoreHero.ToastNotification.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/AspNetCoreHero.ToastNotification.props",
+        "buildTransitive/AspNetCoreHero.ToastNotification.props",
+        "lib/net5.0/AspNetCoreHero.ToastNotification.Views.dll",
+        "lib/net5.0/AspNetCoreHero.ToastNotification.dll",
+        "lib/netcoreapp3.1/AspNetCoreHero.ToastNotification.Views.dll",
+        "lib/netcoreapp3.1/AspNetCoreHero.ToastNotification.dll",
+        "logo-transparent.png",
+        "staticwebassets/notyf.min.css",
+        "staticwebassets/notyf.min.js",
+        "staticwebassets/toastify.css",
+        "staticwebassets/toastify.js"
+      ]
+    },
     "BouncyCastle.Cryptography/2.3.1": {
       "sha512": "buwoISwecYke3CmgG1AQSg+sNZjJeIb93vTAtJiHZX35hP/teYMxsfg0NDXGUKjGx6BKBTNKc77O2M3vKvlXZQ==",
       "type": "package",
@@ -2118,6 +2178,37 @@
         "mimekit.nuspec"
       ]
     },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Collections.Immutable/6.0.0": {
       "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
       "type": "package",
@@ -2671,6 +2762,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AspNetCoreHero.ToastNotification >= 1.1.0",
       "MailKit >= 4.6.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.31",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.31",
@@ -2719,6 +2811,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AspNetCoreHero.ToastNotification": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "MailKit": {
             "target": "Package",
             "version": "[4.6.0, )"
@@ -2768,5 +2864,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MimeKit' 4.6.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-gmc6-fwg3-75m5",
+      "libraryId": "MimeKit",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

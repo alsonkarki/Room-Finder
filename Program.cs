@@ -1,3 +1,4 @@
+using AspNetCoreHero.ToastNotification;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RoomFInder.Data;
@@ -30,6 +31,12 @@ builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration.GetSection("AuthMessageSenderOptions"));
 builder.Services.AddTransient<ImageService>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddNotyf(config =>
+{
+    config.Position = NotyfPosition.BottomRight;
+    config.IsDismissable = true;
+    config.DurationInSeconds = 5;
+});
 
 
 var app = builder.Build();

@@ -1,3 +1,4 @@
+using AspNetCoreHero.ToastNotification.Abstractions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -13,19 +14,22 @@ namespace RoomFInder.Controllers;
  [Authorize]
     public class RoomsController : Controller
     {
+        
         private readonly IGenericRepository<Room> _roomRepository;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ImageService _imageService;
-        
+        private readonly INotyfService _notyfService;
 
-        public RoomsController(IGenericRepository<Room> roomRepository, UserManager<ApplicationUser> userManager,ImageService imageService)
+
+        public RoomsController(IGenericRepository<Room> roomRepository, UserManager<ApplicationUser> userManager,ImageService imageService,INotyfService notyfService)
         {
             _roomRepository = roomRepository;
             _userManager = userManager;
             _imageService = imageService;
+            _notyfService = notyfService;
         }
         
-        [AllowAnonymous]
+
         public async Task<IActionResult> Index()
         {
             var rooms = await _roomRepository.GetAllAsync();
@@ -33,7 +37,7 @@ namespace RoomFInder.Controllers;
         }
         
 
-        
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -81,8 +85,8 @@ namespace RoomFInder.Controllers;
                     RoomOwnerId = _userManager.GetUserId(User)
                 };
 
-                await _roomRepository.AddAsync(room); 
-                TempData["success"] = "successfully created";
+                await _roomRepository.AddAsync(room);
+                 _notyfService.Success("Successfully Created");
                 return RedirectToAction(nameof(Index));
             }
             var errors = ModelState.Values.SelectMany(v => v.Errors);
@@ -117,12 +121,11 @@ namespace RoomFInder.Controllers;
                 IsAvailable = room.IsAvailable,
                 Description = room.Description,
                 Location = room.Location,
-                ImageUrl = room.ImageUrl
+                ImageUrl = room.ImageUrl 
             };
-            
+
             return View(model);
         }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -135,22 +138,37 @@ namespace RoomFInder.Controllers;
 
             if (ModelState.IsValid)
             {
+                var room = await _roomRepository.GetByIdAsync(id);
+                if (room == null)
+                {
+                    return NotFound();
+                }
+
+                string uniqueFileName = room.ImageUrl;
+
+                if (model.ImageFile != null)
+                {
+                    uniqueFileName = await _imageService.SaveImageAsync(model.ImageFile);
+
+                }
+
                 try
                 {
-                    var room = await _roomRepository.GetByIdAsync(id);
-                    room.Name = model.Name;
-                    room.Capacity = model.Capacity;
-                    room.Price = model.Price;
-                    room.IsAvailable = model.IsAvailable;
-                    room.Description = model.Description;
-                    room.Location = model.Location;
-                    room.ImageUrl = model.ImageUrl;
 
+                room.Name = model.Name;
+                room.Capacity = model.Capacity;
+                room.Price = model.Price;
+                room.IsAvailable = model.IsAvailable;
+                room.Description = model.Description;
+                room.Location = model.Location;
+                room.ImageUrl = uniqueFileName;
+                
                     await _roomRepository.UpdateAsync(room);
+                    _notyfService.Success("Successfully Updated");
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!await RoomExists(model.RoomId))
+                    if (!await RoomExists(room.RoomId))
                     {
                         return NotFound();
                     }
@@ -159,28 +177,29 @@ namespace RoomFInder.Controllers;
                         throw;
                     }
                 }
+
                 return RedirectToAction(nameof(Index));
             }
+
             return View(model);
-        }
+            }
 
 
         public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
             {
-                return NotFound();
+                if (id == null)
+                {
+                    return NotFound();
+                }
+
+                var room = await _roomRepository.GetByIdAsync(id.Value);
+                if (room == null)
+                {
+                    return NotFound();
+                }
+
+                return View(room);
             }
-
-            var room = await _roomRepository.GetByIdAsync(id.Value);
-            if (room == null)
-            {
-                return NotFound();
-            }
-
-            return View(room);
-        }
-
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

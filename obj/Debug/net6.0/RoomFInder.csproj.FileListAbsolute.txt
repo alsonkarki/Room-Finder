@@ -159,3 +159,6 @@ C:\Users\PC\RiderProjects\RoomFinder\obj\Debug\net6.0\RoomFInder.genruntimeconfi
 C:\Users\PC\RiderProjects\RoomFinder\obj\Debug\net6.0\ref\RoomFInder.dll
 C:\Users\PC\RiderProjects\RoomFInder\obj\Debug\net6.0\scopedcss\Views\Shared\_Login.cshtml.rz.scp.css
 C:\Users\PC\RiderProjects\RoomFInder\obj\Debug\net6.0\scopedcss\Views\Account\Dashboard.cshtml.rz.scp.css
+C:\Users\PC\RiderProjects\RoomFInder\bin\Debug\net6.0\AspNetCoreHero.ToastNotification.Views.dll
+C:\Users\PC\RiderProjects\RoomFInder\bin\Debug\net6.0\AspNetCoreHero.ToastNotification.dll
+C:\Users\PC\RiderProjects\RoomFInder\bin\Debug\net6.0\Newtonsoft.Json.dll

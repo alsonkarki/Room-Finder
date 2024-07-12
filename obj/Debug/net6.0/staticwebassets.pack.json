@@ -325,8 +325,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\00da7650-d474-4d43-9d32-689a93bc8fc9_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\00da7650-d474-4d43-9d32-689a93bc8fc9_2.jpeg"
+    },
+    {
       "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\04dd1004-6372-455d-8c17-abf0a0ad4508_gallery-logo.webp",
       "PackagePath": "staticwebassets\\images\\04dd1004-6372-455d-8c17-abf0a0ad4508_gallery-logo.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\10631252-a341-46f3-81c2-806d479d1f26_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\10631252-a341-46f3-81c2-806d479d1f26_2.jpeg"
     },
     {
       "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\1999711a-d64f-42d9-bed5-88bcf410befc_1.jpeg",
@@ -341,6 +349,30 @@
       "PackagePath": "staticwebassets\\images\\26321756-2f04-4b41-bd51-7b2969033b15_gallery-logo.webp"
     },
     {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\326c2ccf-7841-4333-aa6f-447a66a7ff93_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\326c2ccf-7841-4333-aa6f-447a66a7ff93_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\3535e601-9336-4426-8c2d-6c231ddcabda_1.jpeg",
+      "PackagePath": "staticwebassets\\images\\3535e601-9336-4426-8c2d-6c231ddcabda_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\4d14e85f-5996-4ab6-959e-0ecf597fa6e2_1.jpeg",
+      "PackagePath": "staticwebassets\\images\\4d14e85f-5996-4ab6-959e-0ecf597fa6e2_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\5fe6e0e0-65e1-4a54-a3d3-f345232442e2_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\5fe6e0e0-65e1-4a54-a3d3-f345232442e2_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\6845c4cc-e13d-4989-9c25-244efed23e3c_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\6845c4cc-e13d-4989-9c25-244efed23e3c_2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\7d544a09-96e8-430f-b7b0-d613fc7bead7_Untitled.jpeg",
+      "PackagePath": "staticwebassets\\images\\7d544a09-96e8-430f-b7b0-d613fc7bead7_Untitled.jpeg"
+    },
+    {
       "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\8b2f0cdb-53bf-4fe9-bbe2-f69fdc8e1825_4.jpeg",
       "PackagePath": "staticwebassets\\images\\8b2f0cdb-53bf-4fe9-bbe2-f69fdc8e1825_4.jpeg"
     },
@@ -349,8 +381,24 @@
       "PackagePath": "staticwebassets\\images\\9b54bee6-98de-4614-aaa4-c4c7c78b5fed_2.jpeg"
     },
     {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\a6dd5555-0ea8-4ea1-be84-d9d7be9c9db6_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\a6dd5555-0ea8-4ea1-be84-d9d7be9c9db6_2.jpeg"
+    },
+    {
       "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\b4943911-aab7-414c-ae4e-09338aeadc1d_Untitled.jpeg",
       "PackagePath": "staticwebassets\\images\\b4943911-aab7-414c-ae4e-09338aeadc1d_Untitled.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\d9468b56-f5e7-42b4-9180-13d6ef62a210_gallery-logo.webp",
+      "PackagePath": "staticwebassets\\images\\d9468b56-f5e7-42b4-9180-13d6ef62a210_gallery-logo.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\e6cea8e3-e21c-4f57-89da-e613cb3e0a4c_1.jpeg",
+      "PackagePath": "staticwebassets\\images\\e6cea8e3-e21c-4f57-89da-e613cb3e0a4c_1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\f9f29262-1297-4c72-ba53-e3eef129b2d4_2.jpeg",
+      "PackagePath": "staticwebassets\\images\\f9f29262-1297-4c72-ba53-e3eef129b2d4_2.jpeg"
     },
     {
       "Id": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\js\\site.js",

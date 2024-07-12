@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uJgAYvqTYa2pAD2bzCTtZksQrL+J58lzUsZLv/9yJbJiWibd9Jt4qfEctd7ziamW38Husscl9/z3lhJbBFl/2Q==",
+  "dgSpecHash": "PuLwGAKjfcRVIMSy7ybxSEV6eMzt7pjb9Wksur/S+QTQ8K/ObaL5NPjMRAQjbwYEkY8yhpQw5SZUSaBOVwVCyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\RoomFInder.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\aspnetcorehero.toastnotification.1.1.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\mailkit\\4.6.0\\mailkit.4.6.0.nupkg.sha512",
@@ -44,6 +45,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\mimekit\\4.6.0\\mimekit.4.6.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
@@ -61,5 +63,16 @@
     "C:\\Users\\PC\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MimeKit' 4.6.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-gmc6-fwg3-75m5",
+      "libraryId": "MimeKit",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
