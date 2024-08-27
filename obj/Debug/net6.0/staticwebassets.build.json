@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cR43ML6VAp5IorwClCYOjojl47F0ME7H4JN9Wh7Ee8w=",
+  "Hash": "mTlE/8aEZh9ezLrJGEnqreVVdcJNyLD1g8LnASvRMoI=",
   "Source": "RoomFInder",
   "BasePath": "_content/RoomFInder",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RoomFInder\\wwwroot",
       "Source": "RoomFInder",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css",
       "SourceId": "AspNetCoreHero.ToastNotification",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/AspNetCoreHero.ToastNotification",
       "RelativePath": "notyf.min.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js",
       "SourceId": "AspNetCoreHero.ToastNotification",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/AspNetCoreHero.ToastNotification",
       "RelativePath": "notyf.min.js",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\notyf.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css",
       "SourceId": "AspNetCoreHero.ToastNotification",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/AspNetCoreHero.ToastNotification",
       "RelativePath": "toastify.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js",
       "SourceId": "AspNetCoreHero.ToastNotification",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/AspNetCoreHero.ToastNotification",
       "RelativePath": "toastify.js",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\aspnetcorehero.toastnotification\\1.1.0\\staticwebassets\\toastify.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -830,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -847,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -864,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -881,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -898,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -915,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -932,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -949,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -966,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1017,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1034,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1085,13 +1085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1102,13 +1102,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\PITS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.31\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RoomFInder.styles.css",
+      "Identity": "D:\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RoomFInder.styles.css",
       "SourceId": "RoomFInder",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "RoomFInder.styles.css",
       "AssetKind": "All",
@@ -1119,13 +1119,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RoomFInder.styles.css"
+      "OriginalItemSpec": "D:\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\bundle\\RoomFInder.styles.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RoomFInder.bundle.scp.css",
+      "Identity": "D:\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RoomFInder.bundle.scp.css",
       "SourceId": "RoomFInder",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "RoomFInder.bundle.scp.css",
       "AssetKind": "All",
@@ -1136,13 +1136,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RoomFInder.bundle.scp.css"
+      "OriginalItemSpec": "D:\\RoomFInder\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RoomFInder.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\css\\site.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\css\\site.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1156,10 +1156,61 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\AdminLTEFullLogo.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\DefaultImage\\33c3e80821395ebd9564943e5eb308b4.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
+      "BasePath": "_content/RoomFInder",
+      "RelativePath": "DefaultImage/33c3e80821395ebd9564943e5eb308b4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DefaultImage\\33c3e80821395ebd9564943e5eb308b4.jpg"
+    },
+    {
+      "Identity": "D:\\RoomFInder\\wwwroot\\DefaultImage\\banner2.jpg",
+      "SourceId": "RoomFInder",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
+      "BasePath": "_content/RoomFInder",
+      "RelativePath": "DefaultImage/banner2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DefaultImage\\banner2.jpg"
+    },
+    {
+      "Identity": "D:\\RoomFInder\\wwwroot\\DefaultImage\\how-to-build-effective-rental-listing-1-1024x683.jpg",
+      "SourceId": "RoomFInder",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
+      "BasePath": "_content/RoomFInder",
+      "RelativePath": "DefaultImage/how-to-build-effective-rental-listing-1-1024x683.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\DefaultImage\\how-to-build-effective-rental-listing-1-1024x683.jpg"
+    },
+    {
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\AdminLTEFullLogo.png",
+      "SourceId": "RoomFInder",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/AdminLTEFullLogo.png",
       "AssetKind": "All",
@@ -1173,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\AdminLTEFullLogo.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\AdminLTELogo.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\AdminLTELogo.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/AdminLTELogo.png",
       "AssetKind": "All",
@@ -1190,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\AdminLTELogo.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/avatar.png",
       "AssetKind": "All",
@@ -1207,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\avatar.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar2.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar2.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/avatar2.png",
       "AssetKind": "All",
@@ -1224,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\avatar2.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar3.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar3.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/avatar3.png",
       "AssetKind": "All",
@@ -1241,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\avatar3.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar4.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar4.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/avatar4.png",
       "AssetKind": "All",
@@ -1258,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\avatar4.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar5.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\avatar5.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/avatar5.png",
       "AssetKind": "All",
@@ -1275,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\avatar5.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\boxed-bg.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\boxed-bg.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/boxed-bg.jpg",
       "AssetKind": "All",
@@ -1292,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\boxed-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\boxed-bg.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\boxed-bg.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/boxed-bg.png",
       "AssetKind": "All",
@@ -1309,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\boxed-bg.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\american-express.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\american-express.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/credit/american-express.png",
       "AssetKind": "All",
@@ -1326,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\credit\\american-express.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\cirrus.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\cirrus.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/credit/cirrus.png",
       "AssetKind": "All",
@@ -1343,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\credit\\cirrus.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\mastercard.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\mastercard.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/credit/mastercard.png",
       "AssetKind": "All",
@@ -1360,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\credit\\mastercard.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\paypal.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\paypal.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/credit/paypal.png",
       "AssetKind": "All",
@@ -1377,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\credit\\paypal.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\paypal2.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\paypal2.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/credit/paypal2.png",
       "AssetKind": "All",
@@ -1394,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\credit\\paypal2.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\visa.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\credit\\visa.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/credit/visa.png",
       "AssetKind": "All",
@@ -1411,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\credit\\visa.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\default-150x150.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\default-150x150.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/default-150x150.png",
       "AssetKind": "All",
@@ -1428,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\default-150x150.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\icons.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\icons.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/icons.png",
       "AssetKind": "All",
@@ -1445,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\icons.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\photo1.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\photo1.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/photo1.png",
       "AssetKind": "All",
@@ -1462,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\photo1.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\photo2.png",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\photo2.png",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/photo2.png",
       "AssetKind": "All",
@@ -1479,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\photo2.png"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\photo3.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\photo3.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/photo3.jpg",
       "AssetKind": "All",
@@ -1496,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\photo3.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\photo4.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\photo4.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/photo4.jpg",
       "AssetKind": "All",
@@ -1513,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\photo4.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-1.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-1.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/prod-1.jpg",
       "AssetKind": "All",
@@ -1530,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\prod-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-2.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-2.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/prod-2.jpg",
       "AssetKind": "All",
@@ -1547,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\prod-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-3.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-3.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/prod-3.jpg",
       "AssetKind": "All",
@@ -1564,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\prod-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-4.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-4.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/prod-4.jpg",
       "AssetKind": "All",
@@ -1581,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\prod-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-5.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\prod-5.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/prod-5.jpg",
       "AssetKind": "All",
@@ -1598,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\prod-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\user1-128x128.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\user1-128x128.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/user1-128x128.jpg",
       "AssetKind": "All",
@@ -1615,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\user1-128x128.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\user2-160x160.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\user2-160x160.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/user2-160x160.jpg",
       "AssetKind": "All",
@@ -1632,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\user2-160x160.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\user3-128x128.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\user3-128x128.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/user3-128x128.jpg",
       "AssetKind": "All",
@@ -1649,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\user3-128x128.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\user4-128x128.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\user4-128x128.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/user4-128x128.jpg",
       "AssetKind": "All",
@@ -1666,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\user4-128x128.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\user5-128x128.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\user5-128x128.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/user5-128x128.jpg",
       "AssetKind": "All",
@@ -1683,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\user5-128x128.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\user6-128x128.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\user6-128x128.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/user6-128x128.jpg",
       "AssetKind": "All",
@@ -1700,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\user6-128x128.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\user7-128x128.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\user7-128x128.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/user7-128x128.jpg",
       "AssetKind": "All",
@@ -1717,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\user7-128x128.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\assets\\img\\user8-128x128.jpg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\assets\\img\\user8-128x128.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/assets/img/user8-128x128.jpg",
       "AssetKind": "All",
@@ -1734,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\assets\\img\\user8-128x128.jpg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\css\\adminlte.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\css\\adminlte.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/css/adminlte.css",
       "AssetKind": "All",
@@ -1751,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\css\\adminlte.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\css\\adminlte.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\css\\adminlte.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/css/adminlte.css.map",
       "AssetKind": "All",
@@ -1768,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\css\\adminlte.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\css\\adminlte.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\css\\adminlte.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/css/adminlte.min.css",
       "AssetKind": "All",
@@ -1785,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\css\\adminlte.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\css\\adminlte.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\css\\adminlte.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/css/adminlte.min.css.map",
       "AssetKind": "All",
@@ -1802,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\css\\adminlte.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\css\\adminlte.rtl.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\css\\adminlte.rtl.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/css/adminlte.rtl.css",
       "AssetKind": "All",
@@ -1819,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\css\\adminlte.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\css\\adminlte.rtl.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\css\\adminlte.rtl.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/css/adminlte.rtl.css.map",
       "AssetKind": "All",
@@ -1836,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\css\\adminlte.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\css\\adminlte.rtl.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\css\\adminlte.rtl.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/css/adminlte.rtl.min.css",
       "AssetKind": "All",
@@ -1853,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\css\\adminlte.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\css\\adminlte.rtl.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\css\\adminlte.rtl.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/css/adminlte.rtl.min.css.map",
       "AssetKind": "All",
@@ -1870,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\css\\adminlte.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\js\\adminlte.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\js\\adminlte.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/js/adminlte.js",
       "AssetKind": "All",
@@ -1887,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\js\\adminlte.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\js\\adminlte.js.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\js\\adminlte.js.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/js/adminlte.js.map",
       "AssetKind": "All",
@@ -1904,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\js\\adminlte.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\js\\adminlte.min.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\js\\adminlte.min.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/js/adminlte.min.js",
       "AssetKind": "All",
@@ -1921,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\js\\adminlte.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\js\\adminlte.min.js.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\js\\adminlte.min.js.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/js/adminlte.min.js.map",
       "AssetKind": "All",
@@ -1938,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\js\\adminlte.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\browser-support.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\browser-support.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/browser-support.html",
       "AssetKind": "All",
@@ -1955,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\browser-support.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\color-mode.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\color-mode.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/color-mode.html",
       "AssetKind": "All",
@@ -1972,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\color-mode.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\components\\main-header.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\components\\main-header.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/components/main-header.html",
       "AssetKind": "All",
@@ -1989,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\components\\main-header.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\components\\main-sidebar.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\components\\main-sidebar.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/components/main-sidebar.html",
       "AssetKind": "All",
@@ -2006,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\components\\main-sidebar.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\faq.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\faq.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/faq.html",
       "AssetKind": "All",
@@ -2023,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\faq.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\how-to-contribute.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\how-to-contribute.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/how-to-contribute.html",
       "AssetKind": "All",
@@ -2040,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\how-to-contribute.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\introduction.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\introduction.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/introduction.html",
       "AssetKind": "All",
@@ -2057,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\introduction.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\javascript\\treeview.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\javascript\\treeview.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/javascript/treeview.html",
       "AssetKind": "All",
@@ -2074,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\javascript\\treeview.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\layout.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\layout.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/layout.html",
       "AssetKind": "All",
@@ -2091,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\layout.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\docs\\license.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\docs\\license.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/docs/license.html",
       "AssetKind": "All",
@@ -2108,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\docs\\license.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\examples\\lockscreen.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\examples\\lockscreen.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/examples/lockscreen.html",
       "AssetKind": "All",
@@ -2125,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\examples\\lockscreen.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\examples\\login-v2.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\examples\\login-v2.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/examples/login-v2.html",
       "AssetKind": "All",
@@ -2142,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\examples\\login-v2.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\examples\\login.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\examples\\login.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/examples/login.html",
       "AssetKind": "All",
@@ -2159,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\examples\\login.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\examples\\register-v2.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\examples\\register-v2.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/examples/register-v2.html",
       "AssetKind": "All",
@@ -2176,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\examples\\register-v2.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\examples\\register.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\examples\\register.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/examples/register.html",
       "AssetKind": "All",
@@ -2193,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\examples\\register.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\forms\\general.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\forms\\general.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/forms/general.html",
       "AssetKind": "All",
@@ -2210,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\forms\\general.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\index.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\index.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/index.html",
       "AssetKind": "All",
@@ -2227,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\index.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\index2.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\index2.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/index2.html",
       "AssetKind": "All",
@@ -2244,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\index2.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\index3.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\index3.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/index3.html",
       "AssetKind": "All",
@@ -2261,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\index3.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\layout\\collapsed-sidebar.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\layout\\collapsed-sidebar.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/layout/collapsed-sidebar.html",
       "AssetKind": "All",
@@ -2278,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\layout\\collapsed-sidebar.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\layout\\fixed-complete.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\layout\\fixed-complete.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/layout/fixed-complete.html",
       "AssetKind": "All",
@@ -2295,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\layout\\fixed-complete.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\layout\\fixed-sidebar.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\layout\\fixed-sidebar.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/layout/fixed-sidebar.html",
       "AssetKind": "All",
@@ -2312,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\layout\\fixed-sidebar.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\layout\\layout-rtl.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\layout\\layout-rtl.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/layout/layout-rtl.html",
       "AssetKind": "All",
@@ -2329,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\layout\\layout-rtl.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\layout\\logo-switch.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\layout\\logo-switch.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/layout/logo-switch.html",
       "AssetKind": "All",
@@ -2346,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\layout\\logo-switch.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\layout\\sidebar-mini.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\layout\\sidebar-mini.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/layout/sidebar-mini.html",
       "AssetKind": "All",
@@ -2363,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\layout\\sidebar-mini.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\layout\\unfixed-sidebar.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\layout\\unfixed-sidebar.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/layout/unfixed-sidebar.html",
       "AssetKind": "All",
@@ -2380,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\layout\\unfixed-sidebar.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\tables\\simple.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\tables\\simple.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/tables/simple.html",
       "AssetKind": "All",
@@ -2397,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\tables\\simple.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\UI\\general.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\UI\\general.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/UI/general.html",
       "AssetKind": "All",
@@ -2414,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\UI\\general.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\UI\\timeline.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\UI\\timeline.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/UI/timeline.html",
       "AssetKind": "All",
@@ -2431,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\UI\\timeline.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\widgets\\cards.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\widgets\\cards.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/widgets/cards.html",
       "AssetKind": "All",
@@ -2448,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\widgets\\cards.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\widgets\\info-box.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\widgets\\info-box.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/widgets/info-box.html",
       "AssetKind": "All",
@@ -2465,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\widgets\\info-box.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\dist\\pages\\widgets\\small-box.html",
+      "Identity": "D:\\RoomFInder\\wwwroot\\dist\\pages\\widgets\\small-box.html",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "dist/pages/widgets/small-box.html",
       "AssetKind": "All",
@@ -2482,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\dist\\pages\\widgets\\small-box.html"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\favicon.ico",
+      "Identity": "D:\\RoomFInder\\wwwroot\\favicon.ico",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2499,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\00da7650-d474-4d43-9d32-689a93bc8fc9_2.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\00da7650-d474-4d43-9d32-689a93bc8fc9_2.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/00da7650-d474-4d43-9d32-689a93bc8fc9_2.jpeg",
       "AssetKind": "All",
@@ -2516,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\images\\00da7650-d474-4d43-9d32-689a93bc8fc9_2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\04dd1004-6372-455d-8c17-abf0a0ad4508_gallery-logo.webp",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\04dd1004-6372-455d-8c17-abf0a0ad4508_gallery-logo.webp",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/04dd1004-6372-455d-8c17-abf0a0ad4508_gallery-logo.webp",
       "AssetKind": "All",
@@ -2533,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\images\\04dd1004-6372-455d-8c17-abf0a0ad4508_gallery-logo.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\10631252-a341-46f3-81c2-806d479d1f26_2.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\10631252-a341-46f3-81c2-806d479d1f26_2.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/10631252-a341-46f3-81c2-806d479d1f26_2.jpeg",
       "AssetKind": "All",
@@ -2550,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\images\\10631252-a341-46f3-81c2-806d479d1f26_2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\1999711a-d64f-42d9-bed5-88bcf410befc_1.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\1999711a-d64f-42d9-bed5-88bcf410befc_1.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/1999711a-d64f-42d9-bed5-88bcf410befc_1.jpeg",
       "AssetKind": "All",
@@ -2567,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1999711a-d64f-42d9-bed5-88bcf410befc_1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\2148a7bb-7905-4e40-b6fe-7fde47aaf99c_gallery-logo.webp",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\2148a7bb-7905-4e40-b6fe-7fde47aaf99c_gallery-logo.webp",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/2148a7bb-7905-4e40-b6fe-7fde47aaf99c_gallery-logo.webp",
       "AssetKind": "All",
@@ -2584,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2148a7bb-7905-4e40-b6fe-7fde47aaf99c_gallery-logo.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\26321756-2f04-4b41-bd51-7b2969033b15_gallery-logo.webp",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\26321756-2f04-4b41-bd51-7b2969033b15_gallery-logo.webp",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/26321756-2f04-4b41-bd51-7b2969033b15_gallery-logo.webp",
       "AssetKind": "All",
@@ -2601,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\images\\26321756-2f04-4b41-bd51-7b2969033b15_gallery-logo.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\326c2ccf-7841-4333-aa6f-447a66a7ff93_2.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\326c2ccf-7841-4333-aa6f-447a66a7ff93_2.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/326c2ccf-7841-4333-aa6f-447a66a7ff93_2.jpeg",
       "AssetKind": "All",
@@ -2618,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\images\\326c2ccf-7841-4333-aa6f-447a66a7ff93_2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\3535e601-9336-4426-8c2d-6c231ddcabda_1.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\3535e601-9336-4426-8c2d-6c231ddcabda_1.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/3535e601-9336-4426-8c2d-6c231ddcabda_1.jpeg",
       "AssetKind": "All",
@@ -2635,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3535e601-9336-4426-8c2d-6c231ddcabda_1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\4d14e85f-5996-4ab6-959e-0ecf597fa6e2_1.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\4d14e85f-5996-4ab6-959e-0ecf597fa6e2_1.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/4d14e85f-5996-4ab6-959e-0ecf597fa6e2_1.jpeg",
       "AssetKind": "All",
@@ -2652,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4d14e85f-5996-4ab6-959e-0ecf597fa6e2_1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\5fe6e0e0-65e1-4a54-a3d3-f345232442e2_2.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\5fe6e0e0-65e1-4a54-a3d3-f345232442e2_2.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/5fe6e0e0-65e1-4a54-a3d3-f345232442e2_2.jpeg",
       "AssetKind": "All",
@@ -2669,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5fe6e0e0-65e1-4a54-a3d3-f345232442e2_2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\6845c4cc-e13d-4989-9c25-244efed23e3c_2.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\6845c4cc-e13d-4989-9c25-244efed23e3c_2.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/6845c4cc-e13d-4989-9c25-244efed23e3c_2.jpeg",
       "AssetKind": "All",
@@ -2686,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\images\\6845c4cc-e13d-4989-9c25-244efed23e3c_2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\7d544a09-96e8-430f-b7b0-d613fc7bead7_Untitled.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\7d544a09-96e8-430f-b7b0-d613fc7bead7_Untitled.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/7d544a09-96e8-430f-b7b0-d613fc7bead7_Untitled.jpeg",
       "AssetKind": "All",
@@ -2703,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7d544a09-96e8-430f-b7b0-d613fc7bead7_Untitled.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\8b2f0cdb-53bf-4fe9-bbe2-f69fdc8e1825_4.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\8b2f0cdb-53bf-4fe9-bbe2-f69fdc8e1825_4.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/8b2f0cdb-53bf-4fe9-bbe2-f69fdc8e1825_4.jpeg",
       "AssetKind": "All",
@@ -2720,10 +2771,27 @@
       "OriginalItemSpec": "wwwroot\\images\\8b2f0cdb-53bf-4fe9-bbe2-f69fdc8e1825_4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\9b54bee6-98de-4614-aaa4-c4c7c78b5fed_2.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\8d28a026-075d-4239-b361-3dace5505f72_33c3e80821395ebd9564943e5eb308b4.jpg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
+      "BasePath": "_content/RoomFInder",
+      "RelativePath": "images/8d28a026-075d-4239-b361-3dace5505f72_33c3e80821395ebd9564943e5eb308b4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\8d28a026-075d-4239-b361-3dace5505f72_33c3e80821395ebd9564943e5eb308b4.jpg"
+    },
+    {
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\9b54bee6-98de-4614-aaa4-c4c7c78b5fed_2.jpeg",
+      "SourceId": "RoomFInder",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/9b54bee6-98de-4614-aaa4-c4c7c78b5fed_2.jpeg",
       "AssetKind": "All",
@@ -2737,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\images\\9b54bee6-98de-4614-aaa4-c4c7c78b5fed_2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\a6dd5555-0ea8-4ea1-be84-d9d7be9c9db6_2.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\a6dd5555-0ea8-4ea1-be84-d9d7be9c9db6_2.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/a6dd5555-0ea8-4ea1-be84-d9d7be9c9db6_2.jpeg",
       "AssetKind": "All",
@@ -2754,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\a6dd5555-0ea8-4ea1-be84-d9d7be9c9db6_2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\b4943911-aab7-414c-ae4e-09338aeadc1d_Untitled.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\b4943911-aab7-414c-ae4e-09338aeadc1d_Untitled.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/b4943911-aab7-414c-ae4e-09338aeadc1d_Untitled.jpeg",
       "AssetKind": "All",
@@ -2771,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b4943911-aab7-414c-ae4e-09338aeadc1d_Untitled.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\d9468b56-f5e7-42b4-9180-13d6ef62a210_gallery-logo.webp",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\d9468b56-f5e7-42b4-9180-13d6ef62a210_gallery-logo.webp",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/d9468b56-f5e7-42b4-9180-13d6ef62a210_gallery-logo.webp",
       "AssetKind": "All",
@@ -2788,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\images\\d9468b56-f5e7-42b4-9180-13d6ef62a210_gallery-logo.webp"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\e6cea8e3-e21c-4f57-89da-e613cb3e0a4c_1.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\e6cea8e3-e21c-4f57-89da-e613cb3e0a4c_1.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/e6cea8e3-e21c-4f57-89da-e613cb3e0a4c_1.jpeg",
       "AssetKind": "All",
@@ -2805,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e6cea8e3-e21c-4f57-89da-e613cb3e0a4c_1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\images\\f9f29262-1297-4c72-ba53-e3eef129b2d4_2.jpeg",
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\f9f29262-1297-4c72-ba53-e3eef129b2d4_2.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "images/f9f29262-1297-4c72-ba53-e3eef129b2d4_2.jpeg",
       "AssetKind": "All",
@@ -2822,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f9f29262-1297-4c72-ba53-e3eef129b2d4_2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\js\\site.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\js\\site.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2839,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2856,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2873,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2890,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2907,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2924,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2941,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2958,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2975,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2992,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3009,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3026,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3043,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3060,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -3077,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -3094,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -3111,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -3128,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -3145,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -3162,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -3179,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -3196,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -3213,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3230,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3247,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3264,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3281,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3298,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3315,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3332,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3349,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -3366,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -3383,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3400,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3417,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3434,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3451,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3468,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3485,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3502,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3519,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3536,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3553,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3570,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3587,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3604,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3621,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3638,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -3655,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3672,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3689,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3706,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3723,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3740,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3757,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3774,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3791,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\RoomFInder\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\RiderProjects\\RoomFInder\\wwwroot\\",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
       "BasePath": "_content/RoomFInder",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

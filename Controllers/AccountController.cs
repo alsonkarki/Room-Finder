@@ -1,3 +1,4 @@
+using System.Net;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.RegularExpressions;
@@ -154,7 +155,7 @@ namespace RoomFInder.Controllers;
                     else
                     {
 
-                        var user = await _userManager.GetUserAsync(User);
+                        var user = await _userManager.FindByEmailAsync(model.Email);
                         var roles = await _userManager.GetRolesAsync(user);
                         _notyfService.Success("Login Succesfully");
                         return RedirectToAction(nameof(PostLogin));
