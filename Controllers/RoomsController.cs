@@ -8,6 +8,7 @@ using RoomFInder.Models;
 using RoomFInder.Repository;
 using RoomFInder.Services;
 using RoomFinder.ViewModels;
+using RoomFInder.ViewModels;
 
 namespace RoomFInder.Controllers;
 
@@ -16,14 +17,22 @@ namespace RoomFInder.Controllers;
     {
         
         private readonly IGenericRepository<Room> _roomRepository;
+        private readonly IGenericRepository<Comment> _commentRepository;
+        private readonly IGenericRepository<Review> _reviewRepository;
+        private readonly IGenericRepository<Like> _likeRepository;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ImageService _imageService;
         private readonly INotyfService _notyfService;
 
 
-        public RoomsController(IGenericRepository<Room> roomRepository, UserManager<ApplicationUser> userManager,ImageService imageService,INotyfService notyfService)
+        public RoomsController(IGenericRepository<Room> roomRepository,IGenericRepository<Comment> commentRepository,
+            IGenericRepository<Review> reviewRepository,IGenericRepository<Like> likeRepository,
+            UserManager<ApplicationUser> userManager,ImageService imageService,INotyfService notyfService)
         {
             _roomRepository = roomRepository;
+            _commentRepository = commentRepository;
+            _reviewRepository = reviewRepository;
+            _likeRepository = likeRepository;
             _userManager = userManager;
             _imageService = imageService;
             _notyfService = notyfService;
@@ -36,22 +45,38 @@ namespace RoomFInder.Controllers;
             return View(rooms);
         }
         
-
-        [AllowAnonymous]
-        public async Task<IActionResult> Details(int? id)
+        
+        public async Task<IActionResult> Details(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var room = await _roomRepository.GetByIdAsync(id.Value);
+            var room = await _roomRepository.GetByIdAsync(id);
             if (room == null)
             {
                 return NotFound();
             }
 
-            return View(room);
+            var comments = await _commentRepository.GetCommentsByRoomIdAsync(id);
+
+            var viewModel = new RoomViewModel
+            {
+                RoomId = room.RoomId,
+                Name = room.Name,
+                Location = room.Location,
+                Price = room.Price,
+                IsAvailable = room.IsAvailable,
+                Description = room.Description,
+                ImageUrl = room.ImageUrl,
+                Comments = comments.Select(c => new CommentViewModel
+                {
+                    CommentId = c.CommentId,
+                    UserName = c.UserName,
+                    Content = c.Content,
+                    Likes = c.Likes.Count(),
+                    CreatedAt = c.CreatedAt,
+                    RoomId = c.RoomId
+                }).ToList()
+            };
+
+            return View(viewModel);
         }
         
         public IActionResult Create()
@@ -219,5 +244,74 @@ namespace RoomFInder.Controllers;
         {
             var room = await _roomRepository.GetByIdAsync(id);
             return room != null;
+        }
+         // Comment Section
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddComment(CommentViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var comment = new Comment
+                {
+                    RoomId = model.RoomId,
+                    UserName = _userManager.GetUserName(User),
+                    Content = model.Content,
+                    CreatedAt = DateTime.Now
+                };
+
+                await _commentRepository.AddAsync(comment);
+                _notyfService.Success("Comment Added Successfully");
+                return RedirectToAction(nameof(Details), new { id = model.RoomId });
+            }
+
+            return RedirectToAction(nameof(Details), new { id = model.RoomId });
+        }
+
+        // Review Section
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddReview(ReviewViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var review = new Review
+                {
+                    RoomId = model.RoomId,
+                    UserName = _userManager.GetUserName(User),
+                    Content = model.Content,
+                    Rating = model.Rating,
+                    CreatedAt = DateTime.Now
+                };
+
+                await _reviewRepository.AddAsync(review);
+                _notyfService.Success("Review Added Successfully");
+                return RedirectToAction(nameof(Details), new { id = model.RoomId });
+            }
+
+            return RedirectToAction(nameof(Details), new { id = model.RoomId });
+        }
+
+        // Like Section
+
+        [HttpPost]
+        public async Task<IActionResult> LikeComment(int commentId)
+        {
+            var comment = await _commentRepository.GetByIdAsync(commentId);
+            if (comment != null)
+            {
+                var like = new Like
+                {
+                    CommentId = commentId,
+                    UserName = _userManager.GetUserName(User)
+                };
+
+                await _likeRepository.AddAsync(like);
+                _notyfService.Success("Comment Liked Successfully");
+            }
+
+            return RedirectToAction(nameof(Details), new { id = comment.RoomId });
         }
     }

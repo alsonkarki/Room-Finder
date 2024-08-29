@@ -1,19 +1,28 @@
-@model CommentViewModel
+@model ReviewViewModel
 
 @{
 Layout = "_Layout";
 }
 
-<form asp-action="AddComment" method="post">
+<form asp-action="AddReview" method="post">
     <input type="hidden" name="RoomId" value="@Model.RoomId" />
     <div class="form-group">
         <label for="UserName">Your Name</label>
         <input type="text" class="form-control" id="UserName" name="UserName" required />
     </div>
     <div class="form-group">
-        <label for="Content">Your Comment</label>
+        <label for="Rating">Rating (out of 5)</label>
+        <select class="form-control" id="Rating" name="Rating">
+            @for (int i = 1; i <= 5; i++)
+            {
+            <option value="@i">@i</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Content">Your Review</label>
         <textarea class="form-control" id="Content" name="Content" required></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Submit Comment</button>
+    <button type="submit" class="btn btn-primary">Submit Review</button>
 </form>
 

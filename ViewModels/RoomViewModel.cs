@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using RoomFInder.ViewModels;
 
 namespace RoomFinder.ViewModels
 {
@@ -29,5 +30,11 @@ namespace RoomFinder.ViewModels
         
         public string ImageUrl { get; set; } = String.Empty;
         public IFormFile ImageFile { get; set; }
+        
+
+        public int Likes { get; set; }
+        public List<CommentViewModel> Comments { get; set; } = new List<CommentViewModel>();
+
+
     }
 }

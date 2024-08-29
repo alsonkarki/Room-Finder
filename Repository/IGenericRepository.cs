@@ -1,4 +1,5 @@
 ﻿using System.Linq.Expressions;
+using RoomFInder.Models;
 
 namespace RoomFInder.Repository;
 
@@ -14,4 +15,5 @@ public interface IGenericRepository<T> where T : class
     Task UpdateAsync(T entity);
 
     Task DeleteAsync(T entity);
+    Task<IEnumerable<Comment>> GetCommentsByRoomIdAsync(int roomId);
 }

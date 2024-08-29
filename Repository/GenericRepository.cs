@@ -1,6 +1,7 @@
 ﻿using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using RoomFInder.Data;
+using RoomFInder.Models;
 
 namespace RoomFInder.Repository;
 
@@ -52,4 +53,16 @@ public class GenericRepository<T> : IGenericRepository<T> where T: class
         _dbSet.RemoveRange(entity);
         await _context.SaveChangesAsync();
     }
-}
+
+    public async Task<IEnumerable<Comment>> GetCommentsByRoomIdAsync(int roomId)
+    {
+        if (typeof(T) == typeof(Comment))
+        {
+            return await _context.Comments
+                .Where(c => c.RoomId == roomId)
+                .ToListAsync();
+        }
+
+        throw new InvalidOperationException("This method is not supported for the current entity type.");
+    }
+    }

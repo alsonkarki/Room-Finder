@@ -12,4 +12,5 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
         
     }
     public DbSet<Room> Rooms { get; set; }
+    public DbSet<Comment> Comments { get; set; }
 }

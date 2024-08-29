@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mTlE/8aEZh9ezLrJGEnqreVVdcJNyLD1g8LnASvRMoI=",
+  "Hash": "0CMwDOMIYyBA7fDSd32o1jXlZ04nkeImdrbNjuWXQZQ=",
   "Source": "RoomFInder",
   "BasePath": "_content/RoomFInder",
   "Mode": "Default",
@@ -2703,6 +2703,23 @@
       "OriginalItemSpec": "wwwroot\\images\\4d14e85f-5996-4ab6-959e-0ecf597fa6e2_1.jpeg"
     },
     {
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\5957993b-84d3-4b27-9d87-8117b870b963_how-to-build-effective-rental-listing-1-1024x683.jpg",
+      "SourceId": "RoomFInder",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
+      "BasePath": "_content/RoomFInder",
+      "RelativePath": "images/5957993b-84d3-4b27-9d87-8117b870b963_how-to-build-effective-rental-listing-1-1024x683.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5957993b-84d3-4b27-9d87-8117b870b963_how-to-build-effective-rental-listing-1-1024x683.jpg"
+    },
+    {
       "Identity": "D:\\RoomFInder\\wwwroot\\images\\5fe6e0e0-65e1-4a54-a3d3-f345232442e2_2.jpeg",
       "SourceId": "RoomFInder",
       "SourceType": "Discovered",
@@ -2803,6 +2820,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\9b54bee6-98de-4614-aaa4-c4c7c78b5fed_2.jpeg"
+    },
+    {
+      "Identity": "D:\\RoomFInder\\wwwroot\\images\\a4feba7f-808c-4535-8959-e005989977d3_rent.JPG.webp",
+      "SourceId": "RoomFInder",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RoomFInder\\wwwroot\\",
+      "BasePath": "_content/RoomFInder",
+      "RelativePath": "images/a4feba7f-808c-4535-8959-e005989977d3_rent.JPG.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a4feba7f-808c-4535-8959-e005989977d3_rent.JPG.webp"
     },
     {
       "Identity": "D:\\RoomFInder\\wwwroot\\images\\a6dd5555-0ea8-4ea1-be84-d9d7be9c9db6_2.jpeg",

@@ -1,7 +1,19 @@
-@model CommentViewModel
+@model RoomFinder.ViewModels.RoomViewModel
 
 @{
-Layout = "_Layout";
+    Layout = "_Layout";
+}
+
+@foreach (var comment in Model.Comments.OrderByDescending(c => c.CreatedAt))
+{
+    <div class="comment">
+        <strong>@comment.UserName</strong> <span class="text-muted">(@comment.CreatedAt.ToShortDateString())</span>
+        <p>@comment.Content</p>
+        <form asp-action="LikeComment" method="post" style="display:inline;">
+            <input type="hidden" name="CommentId" value="@comment.CommentId" />
+            <button type="submit" class="btn btn-link">Like (<span>@comment.Likes</span>)</button>
+        </form>
+    </div>
 }
 
 <form asp-action="AddComment" method="post">
