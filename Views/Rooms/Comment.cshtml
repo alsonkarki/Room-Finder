@@ -1,19 +1,14 @@
-@model CommentViewModel
-
-@{
-Layout = "_Layout";
-}
-
-<form asp-action="AddComment" method="post">
-    <input type="hidden" name="RoomId" value="@Model.RoomId" />
-    <div class="form-group">
-        <label for="UserName">Your Name</label>
-        <input type="text" class="form-control" id="UserName" name="UserName" required />
-    </div>
-    <div class="form-group">
-        <label for="Content">Your Comment</label>
-        <textarea class="form-control" id="Content" name="Content" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit Comment</button>
-</form>
-
+@* @model CommentViewModel *@
+@* *@
+@* @{ *@
+@* Layout = "_Layout"; *@
+@* } *@
+@* *@
+@* <form asp-action="AddComment" method="post"> *@
+@*     <input type="hidden" name="RoomId" value="@Model.RoomId" /> *@
+@*     <div class="form-group"> *@
+@*         <label for="Content">Your Comment</label> *@
+@*         <textarea class="form-control" id="Content" name="Content" required>@Model.Content</textarea> *@
+@*     </div> *@
+@*     <button type="submit" class="btn btn-primary">Submit Comment</button> *@
+@* </form> *@

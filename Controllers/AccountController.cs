@@ -148,19 +148,28 @@ namespace RoomFInder.Controllers;
 
                 if (result.Succeeded)
                 {
-                    if (returnUrl != null)
+                    var user = await _userManager.FindByEmailAsync(model.Email);
+                    var roles = await _userManager.GetRolesAsync(user);
+
+                    _notyfService.Success("Login Successfully");
+
+                    if (!string.IsNullOrEmpty(returnUrl) && Url.IsLocalUrl(returnUrl))
                     {
+                        // Redirect back to the page where the login was initiated
                         return LocalRedirect(returnUrl);
                     }
-                    else
-                    {
 
-                        var user = await _userManager.FindByEmailAsync(model.Email);
-                        var roles = await _userManager.GetRolesAsync(user);
-                        _notyfService.Success("Login Succesfully");
+                    // If no returnUrl is provided, check the user's role
+                    if (roles.Contains("Admin"))
+                    {
+                        // Redirect admin users to the dashboard
                         return RedirectToAction(nameof(PostLogin));
                     }
+
+                    // Redirect non-admin users to the home page
+                    return RedirectToAction(nameof(HomeController.Index), "Home");
                 }
+
                 if (result.IsLockedOut)
                 {
                     return View("Lockout");
@@ -168,13 +177,13 @@ namespace RoomFInder.Controllers;
                 else
                 {
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                    
                     return View(model);
                 }
             }
 
             return View(model);
         }
+
 
         [HttpPost]
         public async Task<IActionResult> Logout()

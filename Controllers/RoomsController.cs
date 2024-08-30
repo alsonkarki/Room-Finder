@@ -54,7 +54,8 @@ namespace RoomFInder.Controllers;
                 return NotFound();
             }
 
-            var comments = await _commentRepository.GetCommentsByRoomIdAsync(id);
+            // Get the comments; ensure it’s not null
+            var comments = await _commentRepository.GetCommentsByRoomIdAsync(id) ?? new List<Comment>();
 
             var viewModel = new RoomViewModel
             {
@@ -70,7 +71,7 @@ namespace RoomFInder.Controllers;
                     CommentId = c.CommentId,
                     UserName = c.UserName,
                     Content = c.Content,
-                    Likes = c.Likes.Count(),
+                    Likes = c.Likes?.Count() ?? 0,
                     CreatedAt = c.CreatedAt,
                     RoomId = c.RoomId
                 }).ToList()
@@ -78,7 +79,7 @@ namespace RoomFInder.Controllers;
 
             return View(viewModel);
         }
-        
+
         public IActionResult Create()
         {
             return View();
@@ -245,29 +246,47 @@ namespace RoomFInder.Controllers;
             var room = await _roomRepository.GetByIdAsync(id);
             return room != null;
         }
+        
          // Comment Section
+         [HttpPost]
+         [ValidateAntiForgeryToken]
+         public async Task<IActionResult> AddComment(CommentViewModel model)
+         {
+             if (ModelState.IsValid)
+             {
+                 var userName = _userManager.GetUserName(User);
+                 if (string.IsNullOrEmpty(userName))
+                 {
+                     _notyfService.Error("You must be logged in to post a comment.");
+                     return RedirectToAction(nameof(Details), new { id = model.RoomId });
+                 }
+                 var comment = new Comment
+                 {
+                     RoomId = model.RoomId,
+                     UserName = model.UserName,
+                     Content = model.Content,
+                     CreatedAt = DateTime.Now
+                 };
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddComment(CommentViewModel model)
-        {
-            if (ModelState.IsValid)
-            {
-                var comment = new Comment
-                {
-                    RoomId = model.RoomId,
-                    UserName = _userManager.GetUserName(User),
-                    Content = model.Content,
-                    CreatedAt = DateTime.Now
-                };
+                 await _commentRepository.AddAsync(comment);
+                 _notyfService.Success("Comment Added Successfully");
+                 return RedirectToAction(nameof(Details), new { id = model.RoomId });
+             }
+             else
+             {
+                 // Log errors to help troubleshoot
+                 foreach (var modelState in ModelState.Values)
+                 {
+                     foreach (var error in modelState.Errors)
+                     {
+                         Console.WriteLine(error.ErrorMessage);
+                     }
+                 }
+             }
 
-                await _commentRepository.AddAsync(comment);
-                _notyfService.Success("Comment Added Successfully");
-                return RedirectToAction(nameof(Details), new { id = model.RoomId });
-            }
+             return RedirectToAction(nameof(Details), new { id = model.RoomId });
+         }
 
-            return RedirectToAction(nameof(Details), new { id = model.RoomId });
-        }
 
         // Review Section
 

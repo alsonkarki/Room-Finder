@@ -8,7 +8,7 @@ ViewData["Title"] = "Room Details";
 
 <div>
     <h4>Room</h4>
-    <hr />
+        <hr />
     <dl class="row">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
@@ -40,29 +40,47 @@ ViewData["Title"] = "Room Details";
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Description)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ImageUrl)
-        </dt>
-        <dd class="col-sm-10">
-            <img src="@Model.ImageUrl" alt="@Model.Name" class="img-fluid" />
-        </dd>
     </dl>
+    <div class="d-flex align-items-start">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-10 ">
+            <dd>
+                <img src="~/images/@Model.ImageUrl" alt="Room Image" width="200" height="200" />
+            </dd>
+        </div>
+    </div>
 </div>
 
 <!-- Comments Section -->
 <h3>Comments</h3>
 
-@foreach (var comment in Model.Comments.OrderByDescending(c => c.CreatedAt))
-{
-<div class="comment">
-    <strong>@comment.UserName</strong> <span class="text-muted">(@comment.CreatedAt.ToShortDateString())</span>
-    <p>@comment.Content</p>
-    <form asp-action="LikeComment" method="post" style="display:inline;">
-        <input type="hidden" name="CommentId" value="@comment.CommentId" />
-        <button type="submit" class="btn btn-link">Like (@comment.Likes)</button>
-    </form>
+<div class="comments-section">
+    @foreach (var comment in Model.Comments)
+    {
+        <div class="comment">
+            <p><strong>@comment.UserName</strong> - @comment.CreatedAt.ToShortDateString()</p>
+            <p>@comment.Content</p>
+            <div class="comment-actions">
+                <form asp-action="LikeComment" method="post">
+                    <input type="hidden" name="CommentId" value="@comment.CommentId" />
+                    <button type="submit" class="btn btn-link">
+                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                        @if (comment.UserHasLiked)
+                        {
+                            <span class="liked">Liked</span>
+                        }
+                        else
+                        {
+                            <span>Like</span>
+                        }
+                        <span> (@comment.Likes)</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    }
 </div>
-}
 
 <!-- Add Comment Form -->
 <h3>Add a Comment</h3>
@@ -78,8 +96,9 @@ ViewData["Title"] = "Room Details";
     </div>
     <button type="submit" class="btn btn-primary">Submit Comment</button>
 </form>
-
+@if (User.IsInRole("Admin")){
 <p>
     <a asp-action="Edit" asp-route-id="@Model.RoomId" class="btn btn-primary">Edit</a> |
     <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </p>
+}
