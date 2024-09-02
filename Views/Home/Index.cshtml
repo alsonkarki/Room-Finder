@@ -4,18 +4,24 @@
 <div class="">
 <div class="row mb-4 filter-background">
     <div class="col-md-6">
-        <form method="get" action="@Url.Action("Index", "Home")" class="form-inline">
-            <div class="input-group">
-                <label for="searchInput" class="mr-8"></label>
-                <input type="text" id="searchInput" name="searchString" class="form-control" placeholder="Enter location">
-                <a href="@Url.Action("Index", new { searchString = ViewData["CurrentFilter"], sortOrder = ViewData["MinPriceSortParm"] })" class="btn btn-secondary">
-                    <i class="bi bi-sort-down"></i>
-                </a>
-                <a href="@Url.Action("Index", new { searchString = ViewData["CurrentFilter"], sortOrder = ViewData["MaxPriceSortParm"] })" class="btn btn-secondary">
-                    <i class="bi bi-sort-up"></i>
-                </a>
+        <form method="get" action="@Url.Action("Index", "Home")" class="form-inline mb-4">
+            <div class="input-group" style="width: 100%;">
+                <!-- Adjusting width by assigning more space to the input field -->
+                <input type="text" id="searchInput" name="searchString" class="form-control form-control-lg" style="flex-grow: 4;" placeholder="Enter location">
+
+                <!-- Sorting Buttons -->
+                <div class="input-group-prepend">
+                    <a href="@Url.Action("Index", new { searchString = ViewData["CurrentFilter"], sortOrder = ViewData["MinPriceSortParm"] })" class="btn btn-secondary">
+                        <i class="bi bi-sort-down"></i>  Price
+                    </a>
+                    @* <a href="@Url.Action("Index", new { searchString = ViewData["CurrentFilter"], sortOrder = ViewData["MaxPriceSortParm"] })" class="btn btn-secondary"> *@
+                    @*     <i class="bi bi-sort-up"></i> Max Price *@
+                    @* </a> *@
+                </div>
+
+                <!-- Search Button -->
                 <div class="input-group-append">
-                    <button type="submit" class="btn btn-primary">Search</button>
+                    <button type="submit" class="btn btn-primary btn-lg">Search</button>
                 </div>
             </div>
         </form>

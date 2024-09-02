@@ -5,104 +5,115 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RoomFInder
 build_property.RootNamespace = RoomFInder
-build_property.ProjectDir = D:\RoomFInder\
+build_property.ProjectDir = C:\Asp.NetCore\RoomFInder\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\RoomFInder
+build_property.MSBuildProjectDirectory = C:\Asp.NetCore\RoomFInder
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/RoomFInder/Views/Account/ConfirmEmail.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Account/Login.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Account/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Asp.NetCore/RoomFInder/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Account/PostLogin.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Account/PostLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQb3N0TG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Account/Register.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Account/RegisterConfirmation.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Home/Index.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Account/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Asp.NetCore/RoomFInder/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Home/Privacy.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Rooms/Comment.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Rooms/Comment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcQ29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Rooms/Create.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Rooms/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Rooms/Delete.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Rooms/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Rooms/Details.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Rooms/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Rooms/Edit.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Rooms/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Rooms/Index.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Rooms/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Rooms/Like.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Rooms/Like.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcTGlrZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Rooms/Review.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Rooms/Review.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcUmV2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Shared/Error.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Shared/_Notifications.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Shared/_Notifications.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/_ViewImports.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/_ViewStart.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RoomFInder/Views/Account/Dashboard.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Account/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ee2r4nz3r8
 
-[D:/RoomFInder/Views/Shared/_Layout.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mhe0vxpnp1
 
-[D:/RoomFInder/Views/Shared/_Login.cshtml]
+[C:/Asp.NetCore/RoomFInder/Views/Shared/_Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-g58x1d0kph

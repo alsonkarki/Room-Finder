@@ -32,7 +32,14 @@ namespace RoomFInder.Controllers;
             _notyfService = notyfService;
             _context = context;
         }
-
+  
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> UserList()
+        {
+            var users = await _userManager.Users.ToListAsync();
+            return View(users);
+        }
+        
         [HttpGet]
         public IActionResult Register()
         {
@@ -192,6 +199,89 @@ namespace RoomFInder.Controllers;
             _notyfService.Success("Logout Successfully");
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
+        
+        // Edit user
+    [Authorize(Roles = "Admin")]
+    [HttpGet]
+    public async Task<IActionResult> EditUser(string id)
+    {
+        if (id == null)
+        {
+            return NotFound();
+        }
+
+        var user = await _userManager.FindByIdAsync(id);
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var model = new ApplicationUser()
+        {
+            Id = user.Id,
+            Email = user.Email,
+            FirstName = user.FirstName,
+            LastName = user.LastName,
+            IsRoomOwner = user.IsRoomOwner,
+        };
+
+        return View(model);
+    }
+
+    [Authorize(Roles = "Admin")]
+    [HttpPost]
+    public async Task<IActionResult> EditUser(ApplicationUser model)
+    {
+        if (ModelState.IsValid)
+        {
+            var user = await _userManager.FindByIdAsync(model.Id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            
+            user.Email = model.Email;
+            user.FirstName = model.FirstName;
+            user.LastName = model.LastName;
+            user.IsRoomOwner = model.IsRoomOwner;
+
+            var result = await _userManager.UpdateAsync(user);
+            if (result.Succeeded)
+            {
+                _notyfService.Success("User updated successfully");
+                return RedirectToAction(nameof(UserList));
+            }
+
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+        }
+
+        return View(model);
+    }
+
+    // Delete user
+    [Authorize(Roles = "Admin")]
+    [HttpPost]
+    public async Task<IActionResult> DeleteUser(string id)
+    {
+        var user = await _userManager.FindByIdAsync(id);
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var result = await _userManager.DeleteAsync(user);
+        if (result.Succeeded)
+        {
+            _notyfService.Success("User deleted successfully");
+            return RedirectToAction(nameof(UserList));
+        }
+
+        _notyfService.Error("Error deleting user");
+        return RedirectToAction(nameof(UserList));
+    }
     }
 
     

@@ -61,23 +61,23 @@ ViewData["Title"] = "Room Details";
         <div class="comment">
             <p><strong>@comment.UserName</strong> - @comment.CreatedAt.ToShortDateString()</p>
             <p>@comment.Content</p>
-            <div class="comment-actions">
-                <form asp-action="LikeComment" method="post">
-                    <input type="hidden" name="CommentId" value="@comment.CommentId" />
-                    <button type="submit" class="btn btn-link">
-                        <i class="bi bi-hand-thumbs-up-fill"></i>
-                        @if (comment.UserHasLiked)
-                        {
-                            <span class="liked">Liked</span>
-                        }
-                        else
-                        {
-                            <span>Like</span>
-                        }
-                        <span> (@comment.Likes)</span>
-                    </button>
-                </form>
-            </div>
+            @* <div class="comment-actions"> *@
+            @*     <form asp-action="LikeComment" method="post"> *@
+            @*         <input type="hidden" name="CommentId" value="@comment.CommentId" /> *@
+            @*         <button type="submit" class="btn btn-link"> *@
+            @*             <i class="bi bi-hand-thumbs-up-fill"></i> *@
+            @*             @if (comment.UserHasLiked) *@
+            @*             { *@
+            @*                 <span class="liked">Liked</span> *@
+            @*             } *@
+            @*             else *@
+            @*             { *@
+            @*                 <span>Like</span> *@
+            @*             } *@
+            @*             <span> (@comment.Likes)</span> *@
+            @*         </button> *@
+            @*     </form> *@
+            @* </div> *@
         </div>
     }
 </div>
@@ -86,10 +86,7 @@ ViewData["Title"] = "Room Details";
 <h3>Add a Comment</h3>
 <form asp-action="AddComment" method="post">
     <input type="hidden" name="RoomId" value="@Model.RoomId" />
-    <div class="form-group">
-        <label for="UserName">Your Name</label>
-        <input type="text" class="form-control" id="UserName" name="UserName" required />
-    </div>
+        <input type="hidden" class="form-control" id="UserName" name="UserName" value="_userManager.GetUserName(User)" />
     <div class="form-group">
         <label for="Content">Your Comment</label>
         <textarea class="form-control" id="Content" name="Content" required></textarea>

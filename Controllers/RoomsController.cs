@@ -238,6 +238,7 @@ namespace RoomFInder.Controllers;
             }
 
             await _roomRepository.DeleteAsync(room);
+            _notyfService.Success("Successfully Deleted");
             return RedirectToAction(nameof(Index));
         }
 
@@ -263,7 +264,7 @@ namespace RoomFInder.Controllers;
                  var comment = new Comment
                  {
                      RoomId = model.RoomId,
-                     UserName = model.UserName,
+                     UserName = _userManager.GetUserName(User),
                      Content = model.Content,
                      CreatedAt = DateTime.Now
                  };
@@ -274,7 +275,6 @@ namespace RoomFInder.Controllers;
              }
              else
              {
-                 // Log errors to help troubleshoot
                  foreach (var modelState in ModelState.Values)
                  {
                      foreach (var error in modelState.Errors)

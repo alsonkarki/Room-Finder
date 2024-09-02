@@ -2,6 +2,7 @@
 
 @{
 ViewData["Title"] = "Delete Room";
+Layout = "_Login";
 }
 
 <h1>Delete Room</h1>
@@ -37,8 +38,10 @@ ViewData["Title"] = "Delete Room";
         </dd>
     </dl>
 
-    <form asp-action="DeleteConfirmed">
-        <input type="hidden" asp-for="RoomId" />
+    <form asp-action="Delete" method="post">
+        @Html.AntiForgeryToken()
+        <!-- Ensure the hidden input name matches the action parameter 'id' -->
+        <input type="hidden" name="id" value="@Model.RoomId" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
         <a asp-action="Index" class="btn btn-secondary">Back to List</a>
     </form>

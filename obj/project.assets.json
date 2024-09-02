@@ -2773,24 +2773,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PITS\\.nuget\\packages\\": {}
+    "C:\\Users\\Alson karki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RoomFInder\\RoomFInder.csproj",
+      "projectUniqueName": "C:\\Asp.NetCore\\RoomFInder\\RoomFInder.csproj",
       "projectName": "RoomFInder",
-      "projectPath": "D:\\RoomFInder\\RoomFInder.csproj",
-      "packagesPath": "C:\\Users\\PITS\\.nuget\\packages\\",
-      "outputPath": "D:\\RoomFInder\\obj\\",
+      "projectPath": "C:\\Asp.NetCore\\RoomFInder\\RoomFInder.csproj",
+      "packagesPath": "C:\\Users\\Alson karki\\.nuget\\packages\\",
+      "outputPath": "C:\\Asp.NetCore\\RoomFInder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PITS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alson karki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2863,7 +2865,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.425\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   },
