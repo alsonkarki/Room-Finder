@@ -1,3 +1,4 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
 @model IEnumerable<RoomFInder.Models.ApplicationUser>
 
 @{
@@ -13,6 +14,7 @@ Layout = "_Login";
         <th>Email</th>
         <th>First Name</th>
         <th>Last Name</th>
+        <th>Phone</th>
         <th>Is Room Owner</th>
         <th>Actions</th>
     </tr>
@@ -24,6 +26,7 @@ Layout = "_Login";
         <td>@user.Email</td>
         <td>@user.FirstName</td>
         <td>@user.LastName</td>
+        <td>@user.PhoneNumber</td>
         <td>@user.IsRoomOwner</td>   
         <td>
             <a asp-action="EditUser" asp-route-id="@user.Id" class="btn btn-sm btn-primary">Edit</a>

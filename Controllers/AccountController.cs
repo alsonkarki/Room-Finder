@@ -110,6 +110,10 @@ namespace RoomFInder.Controllers;
             }
 
             var result = await _userManager.ConfirmEmailAsync(user, code);
+            if (user.IsRoomOwner)
+            {
+                await _userManager.AddToRoleAsync(user, "RoomOwner");
+            }
             return View(result.Succeeded ? "ConfirmEmail" : "Error");
         }
 
@@ -167,7 +171,7 @@ namespace RoomFInder.Controllers;
                     }
 
                     // If no returnUrl is provided, check the user's role
-                    if (roles.Contains("Admin"))
+                    if (roles.Contains("Admin || RoomOwner"))
                     {
                         // Redirect admin users to the dashboard
                         return RedirectToAction(nameof(PostLogin));
@@ -203,7 +207,7 @@ namespace RoomFInder.Controllers;
         // Edit user
     [Authorize(Roles = "Admin")]
     [HttpGet]
-    public async Task<IActionResult> EditUser(string id)
+    public async Task<IActionResult> EditUser(string? id)
     {
         if (id == null)
         {
@@ -228,8 +232,8 @@ namespace RoomFInder.Controllers;
         return View(model);
     }
 
-    [Authorize(Roles = "Admin")]
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public async Task<IActionResult> EditUser(ApplicationUser model)
     {
         if (ModelState.IsValid)
@@ -239,17 +243,21 @@ namespace RoomFInder.Controllers;
             {
                 return NotFound();
             }
-            
+
             user.Email = model.Email;
             user.FirstName = model.FirstName;
             user.LastName = model.LastName;
             user.IsRoomOwner = model.IsRoomOwner;
 
             var result = await _userManager.UpdateAsync(user);
+            if (user.IsRoomOwner)
+            {
+                await _userManager.AddToRoleAsync(user, "RoomOwner");
+            }
             if (result.Succeeded)
             {
-                _notyfService.Success("User updated successfully");
-                return RedirectToAction(nameof(UserList));
+                _notyfService.Success("User updated successfully.");
+                return RedirectToAction(nameof(UserList)); // Assuming UserList is a valid action
             }
 
             foreach (var error in result.Errors)
@@ -260,6 +268,8 @@ namespace RoomFInder.Controllers;
 
         return View(model);
     }
+
+
 
     // Delete user
     [Authorize(Roles = "Admin")]

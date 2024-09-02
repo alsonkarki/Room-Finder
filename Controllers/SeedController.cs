@@ -111,6 +111,7 @@ public class SeedController : Controller
             var roles = new List<IdentityRole>
             {
                 new IdentityRole { Name = "Admin" },
+                new IdentityRole { Name = "RoomOwner" },
                 new IdentityRole { Name = "User" }
             };
 

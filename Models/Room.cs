@@ -28,6 +28,9 @@ public class Room
 
     [Required]
     public string Location { get; set; }
+    
+    [Required]
+    public string PhoneNumber { get; set; }
 
     [Required]
     public string ImageUrl { get; set; }
@@ -41,7 +44,6 @@ public class Room
 
     [ForeignKey(nameof(RoomOwnerId))]
     public virtual ApplicationUser Owner { get; set; }
-    //public ICollection<RoomAmenity> RoomAmenities { get; set; }
     
     // Comments and Reviews
     public ICollection<Comment> Comments { get; set; }

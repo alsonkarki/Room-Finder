@@ -65,6 +65,7 @@ namespace RoomFInder.Controllers;
                 Price = room.Price,
                 IsAvailable = room.IsAvailable,
                 Description = room.Description,
+                PhoneNumber = room.PhoneNumber,
                 ImageUrl = room.ImageUrl,
                 Comments = comments.Select(c => new CommentViewModel
                 {
@@ -107,6 +108,7 @@ namespace RoomFInder.Controllers;
                     IsAvailable = model.IsAvailable,
                     Description = model.Description,
                     Location = model.Location,
+                    PhoneNumber = model.PhoneNumber,
                     ImageUrl = uniqueFileName ?? string.Empty,
                     RoomOwnerId = _userManager.GetUserId(User)
                 };

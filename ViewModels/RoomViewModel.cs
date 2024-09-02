@@ -28,6 +28,8 @@ namespace RoomFinder.ViewModels
         [Required]
         public string Location { get; set; }
         
+        [Required]
+        public string PhoneNumber { get; set; }
         public string ImageUrl { get; set; } = String.Empty;
         public IFormFile ImageFile { get; set; }
         
