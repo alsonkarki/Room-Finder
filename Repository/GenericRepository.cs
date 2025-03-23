@@ -1,6 +1,7 @@
 ﻿using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using RoomFInder.Data;
+using RoomFInder.Interface;
 using RoomFInder.Models;
 
 namespace RoomFInder.Repository;
@@ -28,6 +29,15 @@ public class GenericRepository<T> : IGenericRepository<T> where T: class
     public async Task<IEnumerable<T>> FindAsync(Expression<Func<T, bool>> predicate)
     {
         return await _dbSet.Where(predicate).ToListAsync();
+    }
+    public async Task<IEnumerable<T>> GetActiveAsync()
+    {
+        if (!typeof(IRecStatusEntity).IsAssignableFrom(typeof(T)))
+        {
+            throw new InvalidOperationException("Entity does not support RecStatus.");
+        }
+
+        return await FindAsync(e => ((IRecStatusEntity)e).RecStatus == "A");
     }
 
     public async Task AddAsync(T entity)

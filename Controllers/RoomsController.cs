@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RoomFInder.Data;
+using RoomFInder.Interface;
 using RoomFInder.Models;
 using RoomFInder.Repository;
 using RoomFInder.Services;
@@ -41,7 +42,8 @@ namespace RoomFInder.Controllers;
 
         public async Task<IActionResult> Index()
         {
-            var rooms = await _roomRepository.GetAllAsync();
+            var rooms = await _roomRepository.GetActiveAsync();
+                
             return View(rooms);
         }
         
@@ -163,6 +165,11 @@ namespace RoomFInder.Controllers;
             {
                 return NotFound();
             }
+            var rooms = await _roomRepository.GetByIdAsync(id);
+            if (rooms == null || (rooms is IRecStatusEntity recStatusEntity && recStatusEntity.RecStatus == "D"))
+            {
+                return NotFound();
+            }
 
             if (ModelState.IsValid)
             {
@@ -180,7 +187,7 @@ namespace RoomFInder.Controllers;
 
                 }
 
-                try
+                try 
                 {
 
                 room.Name = model.Name;
@@ -239,11 +246,22 @@ namespace RoomFInder.Controllers;
                 return NotFound();
             }
 
-            await _roomRepository.DeleteAsync(room);
-            _notyfService.Success("Successfully Deleted");
+            // Set RecStatus to 'D' (soft delete)
+            if (room is IRecStatusEntity recStatusEntity)
+            {
+                recStatusEntity.RecStatus = "D";
+                await _roomRepository.UpdateAsync(room); // Soft delete
+                _notyfService.Success("Successfully Deleted");
+            }
+            else
+            {
+                // If not supporting RecStatus, fallback to hard delete
+                await _roomRepository.DeleteAsync(room);
+                _notyfService.Warning("Permanently Deleted (no RecStatus support)");
+            }
+
             return RedirectToAction(nameof(Index));
         }
-
         private async Task<bool> RoomExists(int id)
         {
             var room = await _roomRepository.GetByIdAsync(id);

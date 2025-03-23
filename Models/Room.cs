@@ -1,9 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using RoomFInder.Interface;
 
 namespace RoomFInder.Models;
 
-public class Room
+public class Room : IRecStatusEntity
 {
     [Key]
     public int RoomId { get; set; }
@@ -34,6 +35,8 @@ public class Room
 
     [Required]
     public string ImageUrl { get; set; }
+
+    public string RecStatus { get; set; } = "A";
     
     [Required]
     public string RoomOwnerId { get; set; }
