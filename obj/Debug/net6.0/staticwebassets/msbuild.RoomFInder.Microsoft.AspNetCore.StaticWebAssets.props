@@ -1530,6 +1530,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\04dd1004-6372-455d-8c17-abf0a0ad4508_gallery-logo.webp'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0b11cdc9-3e36-4f3e-b45c-dc258df394ae_8d53a8d7-3eaa-47df-9f79-8eabdaa54ecd.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RoomFInder</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RoomFInder</BasePath>
+      <RelativePath>images/0b11cdc9-3e36-4f3e-b45c-dc258df394ae_8d53a8d7-3eaa-47df-9f79-8eabdaa54ecd.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hcmq3cb7rv</Fingerprint>
+      <Integrity>XwkgmyClZW3ALQ19LwikyR07LQTFJ7kOIVny9gHcK84=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0b11cdc9-3e36-4f3e-b45c-dc258df394ae_8d53a8d7-3eaa-47df-9f79-8eabdaa54ecd.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\10631252-a341-46f3-81c2-806d479d1f26_2.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>RoomFInder</SourceId>
@@ -1565,6 +1583,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1999711a-d64f-42d9-bed5-88bcf410befc_1.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\20307afe-3d35-4615-be28-0b058fff1892_IMG_6967.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RoomFInder</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RoomFInder</BasePath>
+      <RelativePath>images/20307afe-3d35-4615-be28-0b058fff1892_IMG_6967.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>65umyexsht</Fingerprint>
+      <Integrity>GqzRUmLjHJ0Yqs2QNnyE3Ghp2VwQVH8IN+eMsPBi3yo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\20307afe-3d35-4615-be28-0b058fff1892_IMG_6967.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2148a7bb-7905-4e40-b6fe-7fde47aaf99c_gallery-logo.webp'))">
       <SourceType>Package</SourceType>
@@ -1853,6 +1889,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b4943911-aab7-414c-ae4e-09338aeadc1d_Untitled.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d50e01e9-1a5d-41b4-a83b-5949e0c935f8_premium_photo-1676823547752-1d24e8597047.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RoomFInder</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RoomFInder</BasePath>
+      <RelativePath>images/d50e01e9-1a5d-41b4-a83b-5949e0c935f8_premium_photo-1676823547752-1d24e8597047.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s6hxe6tzlf</Fingerprint>
+      <Integrity>vPTI0iXTVWHDeUfmrmALfgA3IrJmAJ+Eq1bz20oP+/A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d50e01e9-1a5d-41b4-a83b-5949e0c935f8_premium_photo-1676823547752-1d24e8597047.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d9468b56-f5e7-42b4-9180-13d6ef62a210_gallery-logo.webp'))">
       <SourceType>Package</SourceType>

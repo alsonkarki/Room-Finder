@@ -15,12 +15,13 @@ Layout = "_Login";
 <table class="table">
     <thead>
     <tr>
-        <th>@Html.DisplayNameFor(model => model.First().Name)</th>
-        <th>@Html.DisplayNameFor(model => model.First().Location)</th>
-        <th>@Html.DisplayNameFor(model => model.First().Price)</th>
-        <th>@Html.DisplayNameFor(model => model.First().IsAvailable)</th>
-        <th>@Html.DisplayNameFor(model => model.First().Owner.Email)</th>
-        <th>@Html.DisplayNameFor(model => model.First().ImageUrl)</th>
+        <th>Name</th>
+        <th>Property Type</th>
+        <th>Location</th>
+        <th>Price</th>
+        <th>IsAvailable</th>
+        <th>Email</th>
+        <th>ImageUrl</th>
         <th>Action</th>
         <th></th>
     </tr>
@@ -29,11 +30,12 @@ Layout = "_Login";
     @foreach (var item in Model)
     {
     <tr>
-        <td>@Html.DisplayFor(modelItem => item.Name)</td>
-        <td>@Html.DisplayFor(modelItem => item.Location)</td>
-        <td>@Html.DisplayFor(modelItem => item.Price)</td>
-        <td>@Html.DisplayFor(modelItem => item.IsAvailable)</td>
-        <td>@Html.DisplayFor(modelItem => item.Owner.Email)</td>
+        <td>@item.Name</td>
+        <td>@item.PropertyType</td>
+        <td>@item.Location</td>
+        <td>@item.Price</td>
+        <td>@item.IsAvailable</td>
+        <td>@(item.Owner?.Email ?? "No Owner")</td>
         <td><img src="~/images/@item.ImageUrl" alt="" width="70" height="80" /></td>
         <td>
             <a asp-action="Edit" asp-route-id="@item.RoomId" class="btn btn-primary">Edit</a>

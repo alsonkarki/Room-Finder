@@ -21,14 +21,20 @@ public class HomeController : Controller
     }
 
 
-    public IActionResult Index(string searchString, string SortOrder)
+    public IActionResult Index(string searchString, string SortOrder, PropertyType? propertyType)
     {
         ViewData["MinPriceSortparm"] = String.IsNullOrEmpty(SortOrder) ? "minprice_desc" : "";
         ViewData["MaxPriceSortparm"] = SortOrder == "MaxPrice" ? "maxprice_desc" : "maxPrice";
 
 
-        var rooms = from r in _context.Rooms.Include(r => r.Owner)
-            select r;
+        var rooms = _context.Rooms
+            .Include(r => r.Owner)
+            .AsQueryable();
+
+        if (propertyType.HasValue)
+        {
+            rooms = rooms.Where(r => r.PropertyType == propertyType.Value);
+        }
 
         if (!string.IsNullOrEmpty(searchString))
         {

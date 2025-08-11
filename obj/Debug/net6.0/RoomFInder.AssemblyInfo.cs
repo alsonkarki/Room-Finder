@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoomFInder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77b6310a986edf014408bed0050964a929d04bb2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bea31c1e57ce15abf2c0a309260aa3925f598dfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoomFInder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoomFInder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

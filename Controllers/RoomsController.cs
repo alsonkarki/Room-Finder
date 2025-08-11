@@ -2,8 +2,8 @@ using AspNetCoreHero.ToastNotification.Abstractions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using RoomFInder.Data;
 using RoomFInder.Interface;
 using RoomFInder.Models;
 using RoomFInder.Repository;
@@ -43,11 +43,11 @@ namespace RoomFInder.Controllers;
         public async Task<IActionResult> Index()
         {
             var rooms = await _roomRepository.GetActiveAsync();
-                
             return View(rooms);
         }
         
         
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int id)
         {
             var room = await _roomRepository.GetByIdAsync(id);
@@ -85,7 +85,17 @@ namespace RoomFInder.Controllers;
 
         public IActionResult Create()
         {
-            return View();
+            var vm = new RoomViewModel
+            {
+                PropertyTypes = Enum.GetValues(typeof(PropertyType))
+                    .Cast<PropertyType>()
+                    .Select(e => new SelectListItem
+                    {
+                        Value = ((int)e).ToString(),
+                        Text = e.ToString()
+                    })
+            };
+            return View(vm);
         }
 
 
@@ -93,39 +103,52 @@ namespace RoomFInder.Controllers;
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(RoomViewModel model)
         {
-            if (ModelState.IsValid)
+            try
             {
-                string uniqueFileName = null;
 
-                if (model.ImageFile != null)
+                if (!ModelState.IsValid)
                 {
-                    uniqueFileName = await _imageService.SaveImageAsync(model.ImageFile);
+                    string uniqueFileName = null;
+
+                    if (model.ImageFile != null)
+                    {
+                        uniqueFileName = await _imageService.SaveImageAsync(model.ImageFile);
+                    }
+
+                    var room = new Room
+                    {
+                        Name = model.Name,
+                        Capacity = model.Capacity,
+                        Price = model.Price,
+                        IsAvailable = model.IsAvailable,
+                        Description = model.Description,
+                        Location = model.Location,
+                        PhoneNumber = model.PhoneNumber,
+                        ImageUrl = uniqueFileName ?? string.Empty,
+                        RoomOwnerId = _userManager.GetUserId(User),
+                        PropertyType = model.PropertyType
+                    };
+
+                    await _roomRepository.AddAsync(room);
+                    _notyfService.Success("Successfully Created");
+             
                 }
-
-                var room = new Room
-                {
-                    Name = model.Name,
-                    Capacity = model.Capacity,
-                    Price = model.Price,
-                    IsAvailable = model.IsAvailable,
-                    Description = model.Description,
-                    Location = model.Location,
-                    PhoneNumber = model.PhoneNumber,
-                    ImageUrl = uniqueFileName ?? string.Empty,
-                    RoomOwnerId = _userManager.GetUserId(User)
-                };
-
-                await _roomRepository.AddAsync(room);
-                 _notyfService.Success("Successfully Created");
-                return RedirectToAction(nameof(Index));
             }
-            var errors = ModelState.Values.SelectMany(v => v.Errors);
-            foreach (var error in errors)
+            catch (Exception e)
             {
-                System.Diagnostics.Debug.WriteLine($"ModelState Error: {error.ErrorMessage}");
+               _notyfService.Error(e.Message);
             }
-
-            return View(model);
+            return RedirectToAction(nameof(Index));
+        }
+        private IEnumerable<SelectListItem> GetPropertyTypeSelectList()
+        {
+            return Enum.GetValues(typeof(PropertyType))
+                .Cast<PropertyType>()
+                .Select(e => new SelectListItem
+                {
+                    Value = ((int)e).ToString(),
+                    Text = e.ToString()
+                });
         }
 
 
