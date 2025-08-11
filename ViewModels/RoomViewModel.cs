@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using RoomFInder.Models;
 using RoomFInder.ViewModels;
 
 namespace RoomFinder.ViewModels
@@ -36,7 +38,11 @@ namespace RoomFinder.ViewModels
 
         public int Likes { get; set; }
         public List<CommentViewModel> Comments { get; set; } = new List<CommentViewModel>();
+        
+        [Required]
+        public PropertyType PropertyType { get; set; } 
 
+        public IEnumerable<SelectListItem> PropertyTypes { get; set; }
 
     }
 }

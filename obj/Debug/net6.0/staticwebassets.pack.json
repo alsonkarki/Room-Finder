@@ -345,12 +345,20 @@
       "PackagePath": "staticwebassets\\images\\04dd1004-6372-455d-8c17-abf0a0ad4508_gallery-logo.webp"
     },
     {
+      "Id": "D:\\RoomFInder\\wwwroot\\images\\0b11cdc9-3e36-4f3e-b45c-dc258df394ae_8d53a8d7-3eaa-47df-9f79-8eabdaa54ecd.png",
+      "PackagePath": "staticwebassets\\images\\0b11cdc9-3e36-4f3e-b45c-dc258df394ae_8d53a8d7-3eaa-47df-9f79-8eabdaa54ecd.png"
+    },
+    {
       "Id": "D:\\RoomFInder\\wwwroot\\images\\10631252-a341-46f3-81c2-806d479d1f26_2.jpeg",
       "PackagePath": "staticwebassets\\images\\10631252-a341-46f3-81c2-806d479d1f26_2.jpeg"
     },
     {
       "Id": "D:\\RoomFInder\\wwwroot\\images\\1999711a-d64f-42d9-bed5-88bcf410befc_1.jpeg",
       "PackagePath": "staticwebassets\\images\\1999711a-d64f-42d9-bed5-88bcf410befc_1.jpeg"
+    },
+    {
+      "Id": "D:\\RoomFInder\\wwwroot\\images\\20307afe-3d35-4615-be28-0b058fff1892_IMG_6967.jpg",
+      "PackagePath": "staticwebassets\\images\\20307afe-3d35-4615-be28-0b058fff1892_IMG_6967.jpg"
     },
     {
       "Id": "D:\\RoomFInder\\wwwroot\\images\\2148a7bb-7905-4e40-b6fe-7fde47aaf99c_gallery-logo.webp",
@@ -415,6 +423,10 @@
     {
       "Id": "D:\\RoomFInder\\wwwroot\\images\\b4943911-aab7-414c-ae4e-09338aeadc1d_Untitled.jpeg",
       "PackagePath": "staticwebassets\\images\\b4943911-aab7-414c-ae4e-09338aeadc1d_Untitled.jpeg"
+    },
+    {
+      "Id": "D:\\RoomFInder\\wwwroot\\images\\d50e01e9-1a5d-41b4-a83b-5949e0c935f8_premium_photo-1676823547752-1d24e8597047.jpeg",
+      "PackagePath": "staticwebassets\\images\\d50e01e9-1a5d-41b4-a83b-5949e0c935f8_premium_photo-1676823547752-1d24e8597047.jpeg"
     },
     {
       "Id": "D:\\RoomFInder\\wwwroot\\images\\d9468b56-f5e7-42b4-9180-13d6ef62a210_gallery-logo.webp",

@@ -366,6 +366,9 @@ namespace RoomFInder.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("PropertyType")
+                        .HasColumnType("int");
+
                     b.Property<string>("RecStatus")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

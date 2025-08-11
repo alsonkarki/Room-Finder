@@ -51,4 +51,7 @@ public class Room : IRecStatusEntity
     // Comments and Reviews
     public ICollection<Comment> Comments { get; set; }
     public ICollection<Review> Reviews { get; set; }
+    
+    [Required(ErrorMessage = "Property Type is required.")]
+    public PropertyType PropertyType { get; set; }
 }

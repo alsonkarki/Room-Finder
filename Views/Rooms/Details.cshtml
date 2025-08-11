@@ -94,9 +94,3 @@ ViewData["Title"] = "Room Details";
     </div>
     <button type="submit" class="btn btn-primary">Submit Comment</button>
 </form>
-@if (User.IsInRole("Admin")){
-<p>
-    <a asp-action="Edit" asp-route-id="@Model.RoomId" class="btn btn-primary">Edit</a> |
-    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
-</p>
-}
