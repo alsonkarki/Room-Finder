@@ -30,6 +30,9 @@ namespace RoomFinder.ViewModels
         [Required]
         public string Location { get; set; }
         
+        public double? Latitude { get; set; }
+        public double? Longitude { get; set; }
+        
         [Required]
         public string PhoneNumber { get; set; }
         public string ImageUrl { get; set; } = String.Empty;

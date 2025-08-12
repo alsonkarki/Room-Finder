@@ -1,9 +1,13 @@
+@using System.Globalization
 @using Microsoft.AspNetCore.Mvc.TagHelpers
 @model RoomFinder.ViewModels.RoomViewModel
 
 @{
-ViewData["Title"] = "Create Room";
-Layout = "_Login";
+    ViewData["Title"] = "Create Room";
+    Layout = "_Login";
+    var lat = Model?.Latitude?.ToString(CultureInfo.InvariantCulture);
+    var lng = Model?.Longitude?.ToString(CultureInfo.InvariantCulture);
+    var zoom = (Model?.Latitude.HasValue == true && Model?.Longitude.HasValue == true) ? "14" : "7";
 }
 
 <h1>Create Room</h1>
@@ -59,10 +63,67 @@ Layout = "_Login";
                 <input asp-for="ImageFile" type="file" class="form-control"/>
                 <span asp-validation-for="ImageFile" class="text-danger"></span>
             </div>
+            <!-- Map container -->
+            <div id="map" style="height: 400px; margin-bottom: 10px;"></div>
 
+            <!-- Hidden inputs for lat/lng -->
+            <input asp-for="Latitude" type="hidden" />
+            <input asp-for="Longitude" type="hidden" />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary"/>
             </div>
         </form>
     </div>
 </div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script>
+        var defaultLat = parseFloat("@lat") || 28.3949; // Nepal latitude fallback
+        var defaultLng = parseFloat("@lng") || 84.1240; // Nepal longitude fallback
+        var defaultZoom = parseInt("@zoom") || 7;
+
+        var map = L.map('map').setView([defaultLat, defaultLng], defaultZoom);
+
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/">OSM</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+
+        var marker;
+
+        if (!isNaN(defaultLat) && !isNaN(defaultLng)) {
+            marker = L.marker([defaultLat, defaultLng]).addTo(map);
+        }
+
+        map.on('click', function (e) {
+            if (marker) {
+                map.removeLayer(marker);
+            }
+            marker = L.marker(e.latlng).addTo(map);
+
+            document.querySelector('[name="Latitude"]').value = e.latlng.lat.toFixed(6);
+            document.querySelector('[name="Longitude"]').value = e.latlng.lng.toFixed(6);
+        });
+
+        // Geolocation to center map if lat/lng empty
+        if ((isNaN(parseFloat("@lat")) || isNaN(parseFloat("@lng"))) && navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (pos) {
+                var userLat = pos.coords.latitude;
+                var userLng = pos.coords.longitude;
+
+                map.setView([userLat, userLng], 14);
+
+                if (marker) {
+                    map.removeLayer(marker);
+                }
+                marker = L.marker([userLat, userLng]).addTo(map);
+                document.querySelector('[name="Latitude"]').value = userLat.toFixed(6);
+                document.querySelector('[name="Longitude"]').value = userLng.toFixed(6);
+            });
+        }
+    </script>
+}
