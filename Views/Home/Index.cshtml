@@ -1,123 +1,224 @@
 ﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
 @{
-    ViewData["Title"] = "Home Page";
+ViewData["Title"] = "Find Your Perfect Room";
 }
-<div class="" xmlns="http://www.w3.org/1999/html">
-    <div class="row mb-4 filter-background">
-        <div class="col-md-6">
-            <form method="get" action="@Url.Action("Index", "Home")" class="form-inline mb-4">
-                <div class="input-group" style="width: 100%;">
-                    <!-- Adjusting width by assigning more space to the input field -->
-                    <input type="text" id="searchInput" name="searchString" class="form-control form-control-lg" style="flex-grow: 4;" placeholder="Enter location">
 
-                    <!-- Sorting Buttons -->
-                    <div class="input-group-prepend">
-                        <a href="@Url.Action("Index", new { searchString = ViewData["CurrentFilter"], sortOrder = ViewData["MinPriceSortParm"] })" class="btn btn-secondary">
-                            <i class="bi bi-sort-down"></i>  Price
-                        </a>
-                        @* <a href="@Url.Action("Index", new { searchString = ViewData["CurrentFilter"], sortOrder = ViewData["MaxPriceSortParm"] })" class="btn btn-secondary"> *@
-                        @*     <i class="bi bi-sort-up"></i> Max Price *@
-                        @* </a> *@
+<div class="container-fluid px-4 py-4" style="background-color: #f8f9fa;">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8">
+                <h1 class="display-5 fw-bold mb-4">Find Your Perfect Stay</h1>
+                <form method="get" action="@Url.Action("Index", "Home")" class="search-form">
+                    <div class="input-group shadow-lg rounded-pill overflow-hidden">
+                        <span class="input-group-text bg-white border-0">
+                            <i class="bi bi-search text-muted"></i>
+                        </span>
+                        <input type="text" id="searchInput" name="searchString"
+                               class="form-control form-control-lg border-0"
+                               placeholder="Search by location, property type..."
+                               value="@ViewData["CurrentFilter"]">
+
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary px-4">
+                                <i class="bi bi-search me-2"></i>Search
+                            </button>
+                        </div>
                     </div>
 
-                    <!-- Search Button -->
-                    <div class="input-group-append">
-                        <button type="submit" class="btn btn-primary btn-lg">Search</button>
+                    <div class="d-flex justify-content-between mt-3 px-2">
+                        <div class="btn-group" role="group">
+                            <a href="@Url.Action("Index", new { searchString = ViewData["CurrentFilter"], sortOrder = ViewData["MinPriceSortParm"] })"
+                               class="btn btn-outline-secondary rounded-pill me-2">
+                                <i class="bi bi-sort-down-alt me-1"></i>Price (Low to High)
+                            </a>
+                            <a href="@Url.Action("Index", new { searchString = ViewData["CurrentFilter"], sortOrder = ViewData["MaxPriceSortParm"] })"
+                               class="btn btn-outline-secondary rounded-pill">
+                                <i class="bi bi-sort-up-alt me-1"></i>Price (High to Low)
+                            </a>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="btn btn-outline-secondary rounded-pill dropdown-toggle"
+                                    type="button" id="filterDropdown"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-funnel me-1"></i>More Filters
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="filterDropdown">
+                                <li><a class="dropdown-item" href="#">Number of Rooms</a></li>
+                                <li><a class="dropdown-item" href="#">Amenities</a></li>
+                                <li><a class="dropdown-item" href="#">Property Type</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2 class="fw-bold mb-4">Featured Listings</h2>
+
+    <div class="row g-4">
+        @foreach (var room in Model)
+        {
+        <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card h-100 border-0 shadow-sm hover-effect">
+                <div class="position-relative">
+                    <a href="@Url.Action("Details", "Rooms", new { id = room.RoomId })" class="text-decoration-none">
+                        <img src="~/images/@(room.ImageUrl ?? "default.jpg")"
+                             class="card-img-top room-img"
+                             alt="@room.Name" />
+
+                        <div class="position-absolute top-0 end-0 m-2">
+                            <button class="btn btn-light btn-sm rounded-circle shadow-sm">
+                                <i class="bi bi-heart"></i>
+                            </button>
+                        </div>
+
+                        <div class="info-badge">
+                            <span class="badge bg-primary">@room.PropertyType</span>
+                            @if (room.IsAvailable)
+                            {
+                            <span class="badge bg-success">Available</span>
+                            }
+                            else
+                            {
+                            <span class="badge bg-secondary">Booked</span>
+                            }
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <h5 class="card-title mb-0">@room.Name</h5>
+                        <div class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <span class="text-dark ms-1">4.8</span>
+                        </div>
+                    </div>
+
+                    <p class="text-muted mb-2">
+                        <i class="bi bi-geo-alt-fill text-primary"></i>
+                        @(room.Location ?? "Location not specified")
+                    </p>
+
+                    <div class="amenities mb-3">
+                            <span class="text-muted me-2">
+                                <i class="bi bi-people me-1"></i>@room.Capacity
+                            </span>
+                        <span class="text-muted me-2">
+                                <i class="bi bi-door-closed me-1"></i>2 beds
+                            </span>
+                        <span class="text-muted">
+                                <i class="bi bi-bath me-1"></i>1 bath
+                            </span>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted d-block small">Starting from</span>
+                            <span class="h5 text-primary fw-bold">Nrs @room.Price</span>
+                            <span class="text-muted small">/month</span>
+                        </div>
+                        <a href="@Url.Action("Details", "Rooms", new { id = room.RoomId })"
+                           class="btn btn-sm btn-outline-primary">
+                            View Details
+                        </a>
                     </div>
                 </div>
-            </form>
-        </div>
-    </div>
-</div>
-<h3><strong>Top Listing</strong></h3><br/>
-<div class="row">
-    @foreach (var room in Model)
-    {
-    <div class="col-md-4 mb-4">
-        <div class="card h-100" style="border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
-            <div class="position-relative">
-                <a href="@Url.Action("Details", "Rooms", new { id = room.RoomId })" style="display: block;">
-                    <img src="~/images/@(room.ImageUrl ?? "default.jpg")"
-                         class="card-img-top room-img"
-                         alt="Room Image" />
-                    <div class="overlay-text-bottom">
-                        <span class="property-type">@room.PropertyType</span>
-                        <span class="location"><i class="bi bi-geo-alt-fill"></i> @(room.Location ?? "Unknown")</span>
-                    </div>
-                </a>
-            </div>
-            <div class="card-body d-flex justify-content-between small-text">
-                <span class="description text-truncate" title="@room.Description">@room.Capacity</span>
-                <span class="price"><strong>Nrs @(room.Price)</strong></span>
             </div>
         </div>
+        }
     </div>
-    }
 </div>
-
 
 <style>
-    .room-img {
-        width: 100%;
-        height: 350px;
-        object-fit: cover;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-        box-shadow: none !important;  
-    }
-
-    .position-relative {
+    .search-form {
         position: relative;
     }
 
-    .overlay-text-bottom {
-        position: absolute;
-        bottom: 0;
-        left: 0;
+    .room-img {
         width: 100%;
-        background: rgba(0,0,0,0.6);
-        color: white;
-        display: flex;
-        justify-content: space-between;
-        padding: 6px 12px;
-        font-size: 0.9rem;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 8px 8px 0 0;
+        transition: transform 0.3s ease;
     }
 
-    .property-type, .location {
+    .hover-effect:hover {
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+    }
+
+    .hover-effect:hover .room-img {
+        transform: scale(1.03);
+    }
+
+    .info-badge {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        display: flex;
+        gap: 5px;
+    }
+
+    .amenities {
+        font-size: 0.85rem;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
-    .card-body.small-text {
-        font-size: 0.8rem;
-        color: #555;
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 15px;
+    .dropdown-menu {
+        padding: 0.5rem;
+        border-radius: 10px;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     }
 
-    .description {
-        flex: 2;
-        margin-right: 10px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+    .dropdown-item {
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        margin: 0.1rem 0;
     }
 
-         .price {
-        flex: 1;
-        text-align: right;
-        white-space: nowrap;
+    .dropdown-item:hover {
+        background-color: #f8f9fa;
     }
 
-    .phone i, .price i {
-        color: #007bff;
-    }
-
-    a {
-        text-decoration: none;
+    .rounded-pill {
+        padding: 0.5rem 1.25rem;
     }
 </style>
+
+@section Scripts {
+<script>
+    // Initialize tooltips
+    document.addEventListener('DOMContentLoaded', function() {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        // Favorite button toggle
+        document.querySelectorAll('.btn-heart').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const icon = this.querySelector('i');
+                if (icon.classList.contains('bi-heart')) {
+                    icon.classList.remove('bi-heart');
+                    icon.classList.add('bi-heart-fill', 'text-danger');
+                } else {
+                    icon.classList.add('bi-heart');
+                    icon.classList.remove('bi-heart-fill', 'text-danger');
+                }
+            });
+        });
+    });
+</script>
+}
