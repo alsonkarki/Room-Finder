@@ -171,7 +171,7 @@ namespace RoomFInder.Controllers;
                     }
 
                     // If no returnUrl is provided, check the user's role
-                    if (roles.Contains("Admin || RoomOwner"))
+                    if (roles.Any(r => r == "Admin" || r == "RoomOwner"))
                     {
                         // Redirect admin users to the dashboard
                         return RedirectToAction(nameof(PostLogin));
